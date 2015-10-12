@@ -18,8 +18,9 @@ There are four required properties files:
 Each of these properties files are documented with comments that explain the
 expected content of each file.
 
-The 'TennisScheduler' directory is actually a 'NetBeans project'. It is easiest
-to just run with NetBeans.
+This application is written in Java. The 'TennisScheduler' directory is
+actually a 'NetBeans project'. It is known to work with Java (1.7.0_79) and
+NetBeans (1.7.0).
 
 To run this program within NetBeans:
    Copy project directory 'TennisScheduler' to 'NetBeansProjects' directory
