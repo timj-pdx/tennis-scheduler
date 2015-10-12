@@ -1,0 +1,1007 @@
+##### MPRC-1 A #####
+MPRC-1    TH        MPRC  Wed Sep 12              (      :0      :0    )
+WH        MPRC-1    WH    Wed Oct 10              (      :0      :0    )
+CAC       MPRC-1    CAC   Wed Nov 07              (      :0      :0    )
+MPRC-1    MPRC-2    MPRC  Wed Nov 14 Consecutive  (    1B:5    2B:1    )
+MPRC-1    VTC       MPRC  Wed Dec 12              (      :0      :0    )
+MAC       MPRC-1    MAC   Wed Dec 19 Consecutive  (      :0    1B:5 C:1)
+MPRC-1    SAC       MPRC  Wed Jan 09              (      :0      :0    )
+Sep: 1 Oct: 1 Nov: 2 Dec: 2 Jan: 1  
+
+##### MPRC-2 A #####
+MPRC-2    SAC       MPRC  Wed Sep 19              (      :0     c:2 C:1)
+MPRC-2    TH        MPRC  Wed Oct 03              (    2B:1    2A:1 C:1)
+MPRC-2    VTC       MPRC  Wed Oct 24              (    1A:5   2BA:2 C:1)
+MAC       MPRC-2    MAC   Wed Oct 31 Consecutive  (      :0      :0    )
+MPRC-1    MPRC-2    MPRC  Wed Nov 14              (    1B:5    2B:1    )
+CAC       MPRC-2    CAC   Wed Dec 05              (   1Ac:7    1A:5    )
+WH        MPRC-2    WH    Wed Dec 12 Consecutive  (      :0      :0    )
+Sep: 1 Oct: 3 Nov: 1 Dec: 2 Jan: 0  
+
+##### WH A #####
+WH        MAC       WH    Wed Sep 12              (      :0      :0    )
+WH        MPRC-1    WH    Wed Oct 10              (      :0      :0    )
+WH        CAC       WH    Wed Oct 24              (   2BA:2    2A:1 C:1)
+SAC       WH        SAC   Wed Nov 07              (      :0      :0    )
+TH        WH        TH    Wed Nov 28              (    2A:1    2A:1 C:1)
+WH        MPRC-2    WH    Wed Dec 12              (      :0      :0    )
+VTC       WH        VTC   Wed Jan 16              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### VTC A #####
+VTC       CAC       VTC   Wed Sep 19              (      :0   2Ac:3    )
+VTC       MAC       VTC   Wed Oct 10              (      :0      :0    )
+MPRC-2    VTC       MPRC  Wed Oct 24              (    1A:5   2BA:2 C:1)
+TH        VTC       TH    Wed Nov 07              (      :0      :0 C:1)
+MPRC-1    VTC       MPRC  Wed Dec 12              (      :0      :0    )
+SAC       VTC       SAC   Wed Dec 19 Consecutive  (      :0    1B:5    )
+VTC       WH        VTC   Wed Jan 16              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 1 Dec: 2 Jan: 1  
+
+##### CAC A #####
+VTC       CAC       VTC   Wed Sep 19              (      :0   2Ac:3    )
+CAC       SAC       CAC   Wed Oct 03              (     c:2  2BAc:4    )
+WH        CAC       WH    Wed Oct 24              (   2BA:2    2A:1 C:1)
+CAC       MPRC-1    CAC   Wed Nov 07              (      :0      :0    )
+CAC       MPRC-2    CAC   Wed Dec 05              (   1Ac:7    1A:5    )
+CAC       TH        CAC   Wed Dec 12 Consecutive  (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 1 Dec: 2 Jan: 0  
+
+##### SAC A #####
+MPRC-2    SAC       MPRC  Wed Sep 19              (      :0     c:2 C:1)
+CAC       SAC       CAC   Wed Oct 03              (     c:2  2BAc:4    )
+SAC       TH        SAC   Wed Oct 17              (      :0      :0    )
+SAC       WH        SAC   Wed Nov 07              (      :0      :0    )
+MAC       SAC       MAC   Wed Nov 28              (      :0      :0    )
+SAC       VTC       SAC   Wed Dec 19              (      :0    1B:5    )
+MPRC-1    SAC       MPRC  Wed Jan 09              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### MAC A #####
+WH        MAC       WH    Wed Sep 12              (      :0      :0    )
+VTC       MAC       VTC   Wed Oct 10              (      :0      :0    )
+MAC       MPRC-2    MAC   Wed Oct 31              (      :0      :0    )
+MAC       SAC       MAC   Wed Nov 28              (      :0      :0    )
+MAC       MPRC-1    MAC   Wed Dec 19              (      :0    1B:5 C:1)
+TH        MAC       TH    Wed Jan 09              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 1 Dec: 1 Jan: 1  
+
+##### TH A #####
+MPRC-1    TH        MPRC  Wed Sep 12              (      :0      :0    )
+MPRC-2    TH        MPRC  Wed Oct 03              (    2B:1    2A:1 C:1)
+SAC       TH        SAC   Wed Oct 17              (      :0      :0    )
+TH        VTC       TH    Wed Nov 07              (      :0      :0 C:1)
+TH        WH        TH    Wed Nov 28              (    2A:1    2A:1 C:1)
+CAC       TH        CAC   Wed Dec 12              (      :0      :0    )
+TH        MAC       TH    Wed Jan 09              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### MPRC B #####
+MPRC      WH        MPRC  Wed Sep 12              (      :0    2A:1 C:1)
+LO        MPRC      LO    Wed Sep 26              (   1Bc:7  1A2B:6    )
+MAC-Red   MPRC      MAC   Wed Oct 03 Consecutive  (    1B:5    2A:1    )
+SLM       MPRC      GLN   Wed Oct 17              (      :0      :0    )
+CGM       MPRC      CGM   Wed Nov 07              (  1A2B:6      :0    )
+MPRC      IRV       MPRC  Wed Nov 28              (      :0      :0    )
+MPRC      ERC       MPRC  Wed Dec 19              (      :0    2B:1    )
+MPRC      MAC-Black MPRC  Wed Jan 16              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### WH B #####
+MPRC      WH        MPRC  Wed Sep 12              (      :0    2A:1 C:1)
+WH        CGM       WH    Wed Sep 26              (      :0     c:2    )
+IRV       WH        IRV   Wed Oct 10              (   2Ac:3    2B:1    )
+WH        LO        WH    Wed Oct 24              (    2B:1      :0    )
+ERC       WH        CRRC  Wed Oct 31 Consecutive  (    2A:1  1B2A:6    )
+WH        MAC-Red   WH    Wed Nov 14              (      :0      :0    )
+MAC-Black WH        MAC   Wed Dec 19              (      :0      :0    )
+WH        SLM       WH    Wed Jan 09              (      :0      :0    )
+Sep: 2 Oct: 3 Nov: 1 Dec: 1 Jan: 1  
+
+##### CGM B #####
+WH        CGM       WH    Wed Sep 26              (      :0     c:2    )
+MAC-Black CGM       MAC   Wed Oct 10              (      :0  2BAc:4    )
+IRV       CGM       IRV   Wed Oct 24              (      :0      :0    )
+CGM       MPRC      CGM   Wed Nov 07              (  1A2B:6      :0    )
+ERC       CGM       CRRC  Wed Nov 14 Consecutive  (      :0      :0    )
+CGM       SLM       CGM   Wed Nov 28              (    2B:1      :0    )
+CGM       LO        CGM   Wed Dec 19              (      :0      :0    )
+CGM       MAC-Red   CGM   Wed Jan 09              (      :0    1A:5 C:1)
+Sep: 1 Oct: 2 Nov: 3 Dec: 1 Jan: 1   Check
+
+##### ERC B #####
+LO        ERC       LO    Wed Sep 19              (     c:2    2A:1    )
+SLM       ERC       GLN   Wed Oct 03              (    2A:1      :0    )
+ERC       WH        CRRC  Wed Oct 31              (    2A:1  1B2A:6    )
+ERC       CGM       CRRC  Wed Nov 14              (      :0      :0    )
+ERC       MAC-Black CRRC  Wed Nov 28              (  1A2B:6      :0    )
+MAC-Red   ERC       MAC   Wed Dec 05 Consecutive  (      :0      :0    )
+MPRC      ERC       MPRC  Wed Dec 19              (      :0    2B:1    )
+ERC       IRV       CRRC  Wed Jan 09              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 2 Jan: 1  
+
+##### SLM B #####
+MAC-Red   SLM       MAC   Wed Sep 12              (      :0      :0    )
+SLM       MAC-Black GLN   Wed Sep 26              (  1A2B:6    2A:1    )
+SLM       ERC       GLN   Wed Oct 03 Consecutive  (    2A:1      :0    )
+SLM       MPRC      GLN   Wed Oct 17              (      :0      :0    )
+LO        SLM       LO    Wed Oct 31              (  1B2A:6    2B:1    )
+CGM       SLM       CGM   Wed Nov 28              (    2B:1      :0    )
+SLM       IRV       GLN   Wed Dec 19              (      :0      :0    )
+WH        SLM       WH    Wed Jan 09              (      :0      :0    )
+Sep: 2 Oct: 3 Nov: 1 Dec: 1 Jan: 1  
+
+##### IRV B #####
+IRV       MAC-Red   IRV   Wed Sep 26              (   2Ac:3    2B:1    )
+IRV       WH        IRV   Wed Oct 10              (   2Ac:3    2B:1    )
+IRV       CGM       IRV   Wed Oct 24              (      :0      :0    )
+MAC-Black IRV       MAC   Wed Nov 07              (    2B:1  1A2B:6 C:1)
+IRV       LO        IRV   Wed Nov 14 Consecutive  (    2A:1      :0    )
+MPRC      IRV       MPRC  Wed Nov 28              (      :0      :0    )
+SLM       IRV       GLN   Wed Dec 19              (      :0      :0    )
+ERC       IRV       CRRC  Wed Jan 09              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 3 Dec: 1 Jan: 1   Check
+
+##### LO B #####
+LO        ERC       LO    Wed Sep 19              (     c:2    2A:1    )
+LO        MPRC      LO    Wed Sep 26 Consecutive  (   1Bc:7  1A2B:6    )
+WH        LO        WH    Wed Oct 24              (    2B:1      :0    )
+LO        SLM       LO    Wed Oct 31 Consecutive  (  1B2A:6    2B:1    )
+IRV       LO        IRV   Wed Nov 14              (    2A:1      :0    )
+MAC-Black LO        MAC   Wed Dec 12              (  1A2B:6    1A:5 C:1)
+CGM       LO        CGM   Wed Dec 19 Consecutive  (      :0      :0    )
+LO        MAC-Red   LO    Wed Jan 16              (     c:2      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 2 Jan: 1  
+
+##### MAC-Black B #####
+SLM       MAC-Black GLN   Wed Sep 26              (  1A2B:6    2A:1    )
+MAC-Black CGM       MAC   Wed Oct 10              (      :0  2BAc:4    )
+MAC-Red   MAC-Black MAC   Wed Oct 24              (      :0    2B:1    )
+MAC-Black IRV       MAC   Wed Nov 07              (    2B:1  1A2B:6 C:1)
+ERC       MAC-Black CRRC  Wed Nov 28              (  1A2B:6      :0    )
+MAC-Black LO        MAC   Wed Dec 12              (  1A2B:6    1A:5 C:1)
+MAC-Black WH        MAC   Wed Dec 19 Consecutive  (      :0      :0    )
+MPRC      MAC-Black MPRC  Wed Jan 16              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 2 Jan: 1  
+
+##### MAC-Red B #####
+MAC-Red   SLM       MAC   Wed Sep 12              (      :0      :0    )
+IRV       MAC-Red   IRV   Wed Sep 26              (   2Ac:3    2B:1    )
+MAC-Red   MPRC      MAC   Wed Oct 03 Consecutive  (    1B:5    2A:1    )
+MAC-Red   MAC-Black MAC   Wed Oct 24              (      :0    2B:1    )
+WH        MAC-Red   WH    Wed Nov 14              (      :0      :0    )
+MAC-Red   ERC       MAC   Wed Dec 05              (      :0      :0    )
+CGM       MAC-Red   CGM   Wed Jan 09              (      :0    1A:5 C:1)
+LO        MAC-Red   LO    Wed Jan 16 Consecutive  (     c:2      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 1 Jan: 2  
+
+##### MPRC C #####
+SHC       MPRC      SHC   Wed Sep 12              (      :0      :0    )
+TH-1      MPRC      TH    Wed Sep 26              (   2BA:2    2B:1    )
+MPRC      HR        MPRC  Wed Oct 03 Consecutive  (    1B:5    2A:1    )
+MPRC      TH-2      MPRC  Wed Oct 10 Consecutive  ( 1B2BA:7  1B2A:6 C:1)
+MPRC      GLN       MPRC  Wed Oct 24              (      :0      :0    )
+CRRC      MPRC      CRRC  Wed Nov 07              (  1A2B:6    2B:1    )
+MPRC      MAC       MPRC  Wed Dec 19              (      :0    2B:1 C:1)
+SAC       MPRC      SAC   Wed Jan 16              (      :0      :0    )
+Sep: 2 Oct: 3 Nov: 1 Dec: 1 Jan: 1  
+
+##### HR C #####
+MPRC      HR        MPRC  Wed Oct 03              (    1B:5    2A:1    )
+MAC       HR        MAC   Wed Oct 17              (      :0      :0    )
+GLN       HR        GLN   Wed Nov 07              (    2B:1    1A:5    )
+HR        SAC       CAC   Wed Nov 14 Consecutive  (      :0   2Bc:3    )
+TH-2      HR        TH    Wed Dec 05              (      :0      :0    )
+HR        CRRC      CAC   Wed Dec 19              (    2B:1      :0    )
+HR        TH-1      CAC   Wed Jan 09              (    1A:5      :0    )
+HR        SHC       CAC   Wed Jan 16 Consecutive  (      :0      :0    )
+Sep: 0 Oct: 2 Nov: 2 Dec: 2 Jan: 2   Check
+
+##### CRRC C #####
+CRRC      SAC       CRRC  Wed Sep 19              (     c:2      :0    )
+CRRC      TH-1      CRRC  Wed Oct 17              (    1A:5    1B:5    )
+CRRC      SHC       CRRC  Wed Oct 24 Consecutive  (      :0      :0    )
+CRRC      MPRC      CRRC  Wed Nov 07              (  1A2B:6    2B:1    )
+TH-2      CRRC      TH    Wed Nov 14 Consecutive  (      :0      :0    )
+GLN       CRRC      GLN   Wed Nov 28              (      :0    2B:1    )
+HR        CRRC      CAC   Wed Dec 19              (    2B:1      :0    )
+MAC       CRRC      MAC   Wed Jan 09              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 3 Dec: 1 Jan: 1   Check
+
+##### GLN C #####
+TH-1      GLN       TH    Wed Sep 12              (      :0      :0    )
+GLN       MAC       GLN   Wed Sep 19 Consecutive  (  1B2A:6      :0    )
+SAC       GLN       SAC   Wed Oct 03              (  1A2B:6      :0    )
+MPRC      GLN       MPRC  Wed Oct 24              (      :0      :0    )
+GLN       HR        GLN   Wed Nov 07              (    2B:1    1A:5    )
+GLN       CRRC      GLN   Wed Nov 28              (      :0    2B:1    )
+SHC       GLN       SHC   Wed Dec 19              (      :0      :0    )
+GLN       TH-2      GLN   Wed Jan 16              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### SAC C #####
+CRRC      SAC       CRRC  Wed Sep 19              (     c:2      :0    )
+SAC       GLN       SAC   Wed Oct 03              (  1A2B:6      :0    )
+TH-1      SAC       TH    Wed Oct 10 Consecutive  (      :0      :0    )
+SAC       TH-2      SAC   Wed Oct 31              (     c:2    2A:1    )
+HR        SAC       CAC   Wed Nov 14              (      :0   2Bc:3    )
+SAC       MAC       SAC   Wed Dec 05              (      :0      :0    )
+SHC       SAC       SHC   Wed Jan 09              (    1A:5   1Ac:7    )
+SAC       MPRC      SAC   Wed Jan 16 Consecutive  (      :0      :0    )
+Sep: 1 Oct: 3 Nov: 1 Dec: 1 Jan: 2  
+
+##### MAC C #####
+GLN       MAC       GLN   Wed Sep 19              (  1B2A:6      :0    )
+MAC       HR        MAC   Wed Oct 17              (      :0      :0    )
+TH-2      MAC       TH    Wed Oct 24 Consecutive  (    1A:5  1B2A:6    )
+MAC       TH-1      MAC   Wed Nov 07              (      :0      :0    )
+MAC       SHC       MAC   Wed Nov 14 Consecutive  (    1B:5    2A:1 C:1)
+SAC       MAC       SAC   Wed Dec 05              (      :0      :0    )
+MPRC      MAC       MPRC  Wed Dec 19              (      :0    2B:1 C:1)
+MAC       CRRC      MAC   Wed Jan 09              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 2 Jan: 1  
+
+##### TH-1 C #####
+TH-1      GLN       TH    Wed Sep 12              (      :0      :0    )
+TH-1      MPRC      TH    Wed Sep 26              (   2BA:2    2B:1    )
+TH-1      SAC       TH    Wed Oct 10              (      :0      :0    )
+CRRC      TH-1      CRRC  Wed Oct 17 Consecutive  (    1A:5    1B:5    )
+MAC       TH-1      MAC   Wed Nov 07              (      :0      :0    )
+TH-1      SHC       TH    Wed Nov 28              (      :0      :0    )
+TH-2      TH-1      TH    Wed Dec 19              (    2B:1      :0    )
+HR        TH-1      CAC   Wed Jan 09              (    1A:5      :0    )
+Sep: 2 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### TH-2 C #####
+SHC       TH-2      SHC   Wed Oct 03              (      :0      :0    )
+MPRC      TH-2      MPRC  Wed Oct 10 Consecutive  ( 1B2BA:7  1B2A:6 C:1)
+TH-2      MAC       TH    Wed Oct 24              (    1A:5  1B2A:6    )
+SAC       TH-2      SAC   Wed Oct 31 Consecutive  (     c:2    2A:1    )
+TH-2      CRRC      TH    Wed Nov 14              (      :0      :0    )
+TH-2      HR        TH    Wed Dec 05              (      :0      :0    )
+TH-2      TH-1      TH    Wed Dec 19              (    2B:1      :0    )
+GLN       TH-2      GLN   Wed Jan 16              (      :0      :0    )
+Sep: 0 Oct: 4 Nov: 1 Dec: 2 Jan: 1   Check
+
+##### SHC C #####
+SHC       MPRC      SHC   Wed Sep 12              (      :0      :0    )
+SHC       TH-2      SHC   Wed Oct 03              (      :0      :0    )
+CRRC      SHC       CRRC  Wed Oct 24              (      :0      :0    )
+MAC       SHC       MAC   Wed Nov 14              (    1B:5    2A:1 C:1)
+TH-1      SHC       TH    Wed Nov 28              (      :0      :0    )
+SHC       GLN       SHC   Wed Dec 19              (      :0      :0    )
+SHC       SAC       SHC   Wed Jan 09              (    1A:5   1Ac:7    )
+HR        SHC       CAC   Wed Jan 16 Consecutive  (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 1 Jan: 2  
+
+##### MPRC D #####
+MPRC      PAC       MPRC  Wed Sep 19              (      :0      :0    )
+CAC       MPRC      CAC   Wed Oct 10              (      :0      :0    )
+LO        MPRC      LO    Wed Oct 17 Consecutive  ( 1B2Ac:8  1B2A:6    )
+TH        MPRC      TH    Wed Oct 31              (  1A2B:6      :0    )
+MPRC      WH        MPRC  Wed Nov 14              (    2B:1  1B2A:6 C:1)
+MPRC      CGM       MPRC  Wed Dec 05              (    2A:1      :0    )
+PTC       MPRC      PTC   Wed Dec 19              (      :0      :0    )
+MPRC      VTC       MPRC  Wed Jan 09              (      :0      :0 C:1)
+Sep: 1 Oct: 3 Nov: 1 Dec: 2 Jan: 1  
+
+##### WH D #####
+WH        CAC       WH    Wed Sep 19              (      :0      :0    )
+VTC       WH        VTC   Wed Oct 17              (      :0      :0    )
+WH        PTC       WH    Wed Nov 07              (      :0      :0    )
+MPRC      WH        MPRC  Wed Nov 14 Consecutive  (    2B:1  1B2A:6 C:1)
+PAC       WH        PAC   Wed Nov 28              (      :0      :0    )
+WH        TH        WH    Wed Dec 19              (      :0    2B:1 C:1)
+CGM       WH        CGM   Wed Jan 09              (     c:2    1A:5    )
+WH        LO        WH    Wed Jan 16 Consecutive  (      :0      :0    )
+Sep: 1 Oct: 1 Nov: 3 Dec: 1 Jan: 2   Check
+
+##### PTC D #####
+PTC       LO        PTC   Wed Sep 12              (     c:2      :0    )
+CGM       PTC       CGM   Wed Oct 03              (      :0   2Ac:3    )
+PTC       TH        PTC   Wed Oct 17              (      :0      :0    )
+WH        PTC       WH    Wed Nov 07              (      :0      :0    )
+PTC       CAC       PTC   Wed Nov 14 Consecutive  (  1B2A:6  2BAc:4    )
+VTC       PTC       VTC   Wed Nov 28              (    2B:1      :0    )
+PTC       MPRC      PTC   Wed Dec 19              (      :0      :0    )
+PAC       PTC       PAC   Wed Jan 09              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 3 Dec: 1 Jan: 1   Check
+
+##### VTC D #####
+TH        VTC       TH    Wed Sep 19              (      :0     c:2    )
+VTC       CGM       VTC   Wed Sep 26 Consecutive  (   1Bc:7  1A2B:6    )
+VTC       WH        VTC   Wed Oct 17              (      :0      :0    )
+CAC       VTC       CAC   Wed Oct 31              (     c:2   2BA:2    )
+LO        VTC       LO    Wed Nov 14              (     c:2      :0    )
+VTC       PTC       VTC   Wed Nov 28              (    2B:1      :0    )
+VTC       PAC       VTC   Wed Dec 19              (      :0      :0    )
+MPRC      VTC       MPRC  Wed Jan 09              (      :0      :0 C:1)
+Sep: 2 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### CAC D #####
+CAC       PAC       CAC   Wed Sep 12              (    1A:5    1A:5    )
+WH        CAC       WH    Wed Sep 19 Consecutive  (      :0      :0    )
+CAC       MPRC      CAC   Wed Oct 10              (      :0      :0    )
+CAC       VTC       CAC   Wed Oct 31              (     c:2   2BA:2    )
+PTC       CAC       PTC   Wed Nov 14              (  1B2A:6  2BAc:4    )
+CAC       CGM       CAC   Wed Nov 28              (     c:2   1Ac:7    )
+LO        CAC       LO    Wed Dec 19              (   2Bc:3     c:2    )
+TH        CAC       TH    Wed Jan 16              (      :0      :0 C:1)
+Sep: 2 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### CGM D #####
+CGM       TH        CGM   Wed Sep 12              (      :0    1A:5    )
+VTC       CGM       VTC   Wed Sep 26              (   1Bc:7  1A2B:6    )
+CGM       PTC       CGM   Wed Oct 03 Consecutive  (      :0   2Ac:3    )
+PAC       CGM       PAC   Wed Oct 24              (   2BA:2   1Ac:7    )
+CGM       LO        CGM   Wed Oct 31 Consecutive  (     c:2   2Ac:3    )
+CAC       CGM       CAC   Wed Nov 28              (     c:2   1Ac:7    )
+MPRC      CGM       MPRC  Wed Dec 05 Consecutive  (    2A:1      :0    )
+CGM       WH        CGM   Wed Jan 09              (     c:2    1A:5    )
+Sep: 2 Oct: 3 Nov: 1 Dec: 1 Jan: 1  
+
+##### LO D #####
+PTC       LO        PTC   Wed Sep 12              (     c:2      :0    )
+PAC       LO        PAC   Wed Oct 10              (      :0      :0    )
+LO        MPRC      LO    Wed Oct 17 Consecutive  ( 1B2Ac:8  1B2A:6    )
+CGM       LO        CGM   Wed Oct 31              (     c:2   2Ac:3    )
+LO        VTC       LO    Wed Nov 14              (     c:2      :0    )
+LO        TH        LO    Wed Dec 05              (      :0      :0    )
+LO        CAC       LO    Wed Dec 19              (   2Bc:3     c:2    )
+WH        LO        WH    Wed Jan 16              (      :0      :0    )
+Sep: 1 Oct: 3 Nov: 1 Dec: 2 Jan: 1  
+
+##### PAC D #####
+CAC       PAC       CAC   Wed Sep 12              (    1A:5    1A:5    )
+MPRC      PAC       MPRC  Wed Sep 19 Consecutive  (      :0      :0    )
+PAC       LO        PAC   Wed Oct 10              (      :0      :0    )
+PAC       CGM       PAC   Wed Oct 24              (   2BA:2   1Ac:7    )
+TH        PAC       TH    Wed Nov 07              (      :0      :0    )
+PAC       WH        PAC   Wed Nov 28              (      :0      :0    )
+VTC       PAC       VTC   Wed Dec 19              (      :0      :0    )
+PAC       PTC       PAC   Wed Jan 09              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### TH D #####
+CGM       TH        CGM   Wed Sep 12              (      :0    1A:5    )
+TH        VTC       TH    Wed Sep 19 Consecutive  (      :0     c:2    )
+PTC       TH        PTC   Wed Oct 17              (      :0      :0    )
+TH        MPRC      TH    Wed Oct 31              (  1A2B:6      :0    )
+TH        PAC       TH    Wed Nov 07 Consecutive  (      :0      :0    )
+LO        TH        LO    Wed Dec 05              (      :0      :0    )
+WH        TH        WH    Wed Dec 19              (      :0    2B:1 C:1)
+TH        CAC       TH    Wed Jan 16              (      :0      :0 C:1)
+Sep: 2 Oct: 2 Nov: 1 Dec: 2 Jan: 1  
+
+##### MPRC E #####
+MPRC      CRRC      MPRC  Wed Sep 26              (    2A:1   2BA:2 C:1)
+MPRC      WH        MPRC  Wed Oct 10              (      :0      :0    )
+LONG      MPRC      CGM   Wed Oct 24              (      :0   2BA:2    )
+MPRC      MAC-Red   MPRC  Wed Oct 31 Consecutive  (  1BA:10    2A:1    )
+MPRC      SAC       MPRC  Wed Nov 07 Consecutive  (      :0      :0    )
+LO        MPRC      LO    Wed Nov 28              (    2B:1      :0    )
+TD        MPRC      SJ    Wed Dec 19              (      :0      :0    )
+MAC-Black MPRC      MAC   Wed Jan 16              (      :0      :0    )
+Sep: 1 Oct: 3 Nov: 2 Dec: 1 Jan: 1  
+
+##### WH E #####
+MAC-Red   WH        MAC   Wed Sep 19              (      :0      :0    )
+WH        LONG      WH    Wed Sep 26 Consecutive  (  1B2A:6   2BA:2 C:1)
+MPRC      WH        MPRC  Wed Oct 10              (      :0      :0    )
+WH        LO        WH    Wed Oct 31              (      :0      :0    )
+SAC       WH        SAC   Wed Nov 14              (  1B2A:6   2BA:2    )
+WH        TD        WH    Wed Nov 28              (      :0      :0    )
+WH        MAC-Black WH    Wed Dec 19              (      :0      :0    )
+CRRC      WH        CRRC  Wed Jan 16              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### LONG E #####
+CRRC      LONG      CRRC  Wed Sep 12              (      :0      :0    )
+WH        LONG      WH    Wed Sep 26              (  1B2A:6   2BA:2 C:1)
+LONG      MAC-Black CGM   Wed Oct 10              (    2A:1    2B:1    )
+LONG      MPRC      CGM   Wed Oct 24              (      :0   2BA:2    )
+LONG      LO        CGM   Wed Nov 14              (      :0    2B:1    )
+MAC-Red   LONG      MAC   Wed Dec 12              (      :0      :0    )
+SAC       LONG      SAC   Wed Jan 09              (      :0      :0    )
+LONG      TD        CGM   Wed Jan 16 Consecutive  (    1B:5    1B:5    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 1 Jan: 2  
+
+##### CRRC E #####
+CRRC      LONG      CRRC  Wed Sep 12              (      :0      :0    )
+MPRC      CRRC      MPRC  Wed Sep 26              (    2A:1   2BA:2 C:1)
+LO        CRRC      LO    Wed Oct 10              (      :0      :0    )
+TD        CRRC      SJ    Wed Nov 14              (    2A:1     c:2    )
+MAC-Black CRRC      MAC   Wed Dec 05              (  1B2A:6    1A:5 C:1)
+CRRC      SAC       CRRC  Wed Dec 12 Consecutive  (     c:2      :0    )
+CRRC      MAC-Red   CRRC  Wed Dec 19 Consecutive  ( 1B2Bc:8    1B:5    )
+CRRC      WH        CRRC  Wed Jan 16              (      :0      :0    )
+Sep: 2 Oct: 1 Nov: 1 Dec: 3 Jan: 1   Check
+
+##### LO E #####
+TD        LO        SJ    Wed Sep 12              (      :0    2A:1    )
+MAC-Black LO        MAC   Wed Sep 26              (      :0    2A:1    )
+LO        CRRC      LO    Wed Oct 10              (      :0      :0    )
+WH        LO        WH    Wed Oct 31              (      :0      :0    )
+LONG      LO        CGM   Wed Nov 14              (      :0    2B:1    )
+LO        MPRC      LO    Wed Nov 28              (    2B:1      :0    )
+LO        MAC-Red   LO    Wed Jan 09              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 2 Dec: 0 Jan: 1   Check
+
+##### SAC E #####
+SAC       TD        SAC   Wed Oct 24              (    2A:1      :0    )
+MPRC      SAC       MPRC  Wed Nov 07              (      :0      :0    )
+SAC       WH        SAC   Wed Nov 14 Consecutive  (  1B2A:6   2BA:2    )
+SAC       MAC-Black SAC   Wed Nov 28              (    2A:1    2B:1    )
+CRRC      SAC       CRRC  Wed Dec 12              (     c:2      :0    )
+SAC       LONG      SAC   Wed Jan 09              (      :0      :0    )
+MAC-Red   SAC       MAC   Wed Jan 16 Consecutive  (    1B:5   1Bc:7 C:1)
+Sep: 0 Oct: 1 Nov: 3 Dec: 1 Jan: 2   Check
+
+##### MAC-Black E #####
+MAC-Black LO        MAC   Wed Sep 26              (      :0    2A:1    )
+LONG      MAC-Black CGM   Wed Oct 10              (    2A:1    2B:1    )
+MAC-Red   MAC-Black MAC   Wed Nov 14              (      :0      :0    )
+SAC       MAC-Black SAC   Wed Nov 28              (    2A:1    2B:1    )
+MAC-Black CRRC      MAC   Wed Dec 05 Consecutive  (  1B2A:6    1A:5 C:1)
+WH        MAC-Black WH    Wed Dec 19              (      :0      :0    )
+MAC-Black TD        MAC   Wed Jan 09              (    1A:5      :0 C:1)
+MAC-Black MPRC      MAC   Wed Jan 16 Consecutive  (      :0      :0    )
+Sep: 1 Oct: 1 Nov: 2 Dec: 2 Jan: 2  
+
+##### MAC-Red E #####
+MAC-Red   WH        MAC   Wed Sep 19              (      :0      :0    )
+TD        MAC-Red   SJ    Wed Oct 03              (      :0    2B:1    )
+MPRC      MAC-Red   MPRC  Wed Oct 31              (  1BA:10    2A:1    )
+MAC-Red   MAC-Black MAC   Wed Nov 14              (      :0      :0    )
+MAC-Red   LONG      MAC   Wed Dec 12              (      :0      :0    )
+CRRC      MAC-Red   CRRC  Wed Dec 19 Consecutive  ( 1B2Bc:8    1B:5    )
+LO        MAC-Red   LO    Wed Jan 09              (      :0      :0    )
+MAC-Red   SAC       MAC   Wed Jan 16 Consecutive  (    1B:5   1Bc:7 C:1)
+Sep: 1 Oct: 2 Nov: 1 Dec: 2 Jan: 2  
+
+##### TD E #####
+TD        LO        SJ    Wed Sep 12              (      :0    2A:1    )
+TD        MAC-Red   SJ    Wed Oct 03              (      :0    2B:1    )
+SAC       TD        SAC   Wed Oct 24              (    2A:1      :0    )
+TD        CRRC      SJ    Wed Nov 14              (    2A:1     c:2    )
+WH        TD        WH    Wed Nov 28              (      :0      :0    )
+TD        MPRC      SJ    Wed Dec 19              (      :0      :0    )
+MAC-Black TD        MAC   Wed Jan 09              (    1A:5      :0 C:1)
+LONG      TD        CGM   Wed Jan 16 Consecutive  (    1B:5    1B:5    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 1 Jan: 2  
+
+##### MPRC F #####
+MPRC      WH        MPRC  Wed Sep 26              (      :0      :0    )
+PTC       MPRC      PTC   Wed Oct 10              (      :0  1A2B:6    )
+MPRC      LO-1      MPRC  Wed Oct 17 Consecutive  (      :0    2B:1    )
+LO-2      MPRC      LO    Wed Nov 07              (      :0      :0    )
+MPRC      TH        MPRC  Wed Nov 28              (      :0      :0 C:1)
+MPRC      VTC       MPRC  Wed Dec 12              (  1A2B:6   1Bc:7 C:1)
+IRV       MPRC      IRV   Wed Dec 19 Consecutive  (   2Bc:3      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 2 Jan: 0  
+
+##### WH F #####
+LO-2      WH        LO    Wed Sep 12              (      :0    2A:1    )
+MPRC      WH        MPRC  Wed Sep 26              (      :0      :0    )
+WH        VTC       WH    Wed Oct 17              (      :0   2Bc:3    )
+PTC       WH        PTC   Wed Nov 07              (     c:2      :0    )
+WH        LO-1      WH    Wed Nov 28              (      :0    2A:1 C:1)
+WH        TH        WH    Wed Dec 12              (    2B:1    2B:1 C:1)
+IRV       WH        IRV   Wed Jan 16              (      :0      :0    )
+Sep: 2 Oct: 1 Nov: 2 Dec: 1 Jan: 1  
+
+##### PTC F #####
+VTC       PTC       VTC   Wed Sep 12              (      :0      :0    )
+PTC       MPRC      PTC   Wed Oct 10              (      :0  1A2B:6    )
+PTC       WH        PTC   Wed Nov 07              (     c:2      :0    )
+TH        PTC       TH    Wed Nov 14 Consecutive  (    2A:1   1Bc:7 C:1)
+PTC       IRV       PTC   Wed Dec 05              (      :0      :0    )
+LO-1      PTC       LO    Wed Dec 12 Consecutive  (      :0   1Bc:7    )
+PTC       LO-2      PTC   Wed Jan 16              (      :0      :0    )
+Sep: 1 Oct: 1 Nov: 2 Dec: 2 Jan: 1  
+
+##### VTC F #####
+VTC       PTC       VTC   Wed Sep 12              (      :0      :0    )
+LO-1      VTC       LO    Wed Oct 03              (      :0      :0    )
+WH        VTC       WH    Wed Oct 17              (      :0   2Bc:3    )
+VTC       IRV       VTC   Wed Nov 07              (     c:2     c:2    )
+VTC       LO-2      VTC   Wed Dec 05              (      :0      :0    )
+MPRC      VTC       MPRC  Wed Dec 12 Consecutive  (  1A2B:6   1Bc:7 C:1)
+TH        VTC       TH    Wed Jan 16              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 1 Dec: 2 Jan: 1  
+
+##### IRV F #####
+IRV       LO-1      IRV   Wed Sep 12              (      :0      :0    )
+IRV       TH        IRV   Wed Oct 03              (      :0    2A:1    )
+VTC       IRV       VTC   Wed Nov 07              (     c:2     c:2    )
+PTC       IRV       PTC   Wed Dec 05              (      :0      :0    )
+IRV       MPRC      IRV   Wed Dec 19              (   2Bc:3      :0    )
+IRV       WH        IRV   Wed Jan 16              (      :0      :0    )
+Sep: 1 Oct: 1 Nov: 1 Dec: 2 Jan: 1  
+
+##### LO-1 F #####
+IRV       LO-1      IRV   Wed Sep 12              (      :0      :0    )
+LO-1      VTC       LO    Wed Oct 03              (      :0      :0    )
+MPRC      LO-1      MPRC  Wed Oct 17              (      :0    2B:1    )
+LO-1      TH        LO    Wed Oct 24 Consecutive  (    1B:5    1B:5    )
+LO-2      LO-1      LO    Tue Oct 30 Consecutive  (      :0      :0    )
+WH        LO-1      WH    Wed Nov 28              (      :0    2A:1 C:1)
+LO-1      PTC       LO    Wed Dec 12              (      :0   1Bc:7    )
+Sep: 1 Oct: 4 Nov: 1 Dec: 1 Jan: 0   Check
+
+##### LO-2 F #####
+LO-2      WH        LO    Wed Sep 12              (      :0    2A:1    )
+TH        LO-2      TH    Wed Oct 17              (      :0      :0    )
+LO-2      LO-1      LO    Tue Oct 30              (      :0      :0    )
+LO-2      MPRC      LO    Wed Nov 07 Consecutive  (      :0      :0    )
+VTC       LO-2      VTC   Wed Dec 05              (      :0      :0    )
+PTC       LO-2      PTC   Wed Jan 16              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 1 Dec: 1 Jan: 1  
+
+##### TH F #####
+IRV       TH        IRV   Wed Oct 03              (      :0    2A:1    )
+TH        LO-2      TH    Wed Oct 17              (      :0      :0    )
+LO-1      TH        LO    Wed Oct 24 Consecutive  (    1B:5    1B:5    )
+TH        PTC       TH    Wed Nov 14              (    2A:1   1Bc:7 C:1)
+MPRC      TH        MPRC  Wed Nov 28              (      :0      :0 C:1)
+WH        TH        WH    Wed Dec 12              (    2B:1    2B:1 C:1)
+TH        VTC       TH    Wed Jan 16              (      :0      :0    )
+Sep: 0 Oct: 3 Nov: 2 Dec: 1 Jan: 1   Check
+
+##### MPRC G #####
+SAC       MPRC      SAC   Tue Sep 18              (      :0      :0    )
+MPRC      CAC       MPRC  Tue Oct 09              (      :0     c:2    )
+MPRC      WH        MPRC  Tue Oct 16 Consecutive  (    1B:5    2A:1    )
+MPRC      MAC       MPRC  Tue Nov 13              (    2A:1   2BA:2 C:1)
+MPRC      LO        MPRC  Tue Nov 27              (      :0      :0 C:1)
+ERC       MPRC      CRRC  Tue Dec 04 Consecutive  (    1B:5  1B2A:6    )
+TH        MPRC      TH    Tue Dec 18              (      :0      :0    )
+PTC       MPRC      PTC   Tue Jan 08              (   1Ac:7      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 2 Jan: 1  
+
+##### WH G #####
+WH        ERC       WH    Tue Sep 18              (      :0      :0    )
+LO        WH        LO    Tue Sep 25 Consecutive  (  1A2B:6    1B:5    )
+MPRC      WH        MPRC  Tue Oct 16              (    1B:5    2A:1    )
+WH        SAC       WH    Tue Oct 30              (      :0      :0 C:1)
+WH        PTC       WH    Tue Nov 13              (    2B:1  2BAc:4    )
+CAC       WH        CAC   Tue Dec 04              (    1B:5    2A:1    )
+MAC       WH        MAC   Tue Dec 18              (      :0      :0    )
+WH        TH        WH    Tue Jan 08              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 2 Jan: 1  
+
+##### PTC G #####
+PTC       TH        PTC   Tue Sep 11              (      :0      :0    )
+LO        PTC       LO    Tue Oct 02              (      :0      :0    )
+MAC       PTC       MAC   Tue Oct 30              (      :0      :0    )
+WH        PTC       WH    Tue Nov 13              (    2B:1  2BAc:4    )
+CAC       PTC       CAC   Tue Nov 27              (      :0      :0    )
+PTC       SAC       PTC   Tue Dec 18              (     c:2     c:2    )
+PTC       MPRC      PTC   Tue Jan 08              (   1Ac:7      :0    )
+PTC       ERC       PTC   Tue Jan 15 Consecutive  (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 1 Jan: 2  
+
+##### CAC G #####
+CAC       MAC       CAC   Tue Sep 18              (      :0      :0    )
+MPRC      CAC       MPRC  Tue Oct 09              (      :0     c:2    )
+TH        CAC       TH    Tue Oct 30              (      :0      :0    )
+ERC       CAC       CRRC  Tue Nov 13              (  2BAc:4  2BAc:4    )
+CAC       PTC       CAC   Tue Nov 27              (      :0      :0    )
+CAC       WH        CAC   Tue Dec 04 Consecutive  (    1B:5    2A:1    )
+SAC       CAC       SAC   Tue Jan 08              (   1Ac:7   1Ac:7    )
+CAC       LO        CAC   Tue Jan 15 Consecutive  (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 1 Jan: 2  
+
+##### ERC G #####
+WH        ERC       WH    Tue Sep 18              (      :0      :0    )
+SAC       ERC       SAC   Tue Oct 02              (    2B:1   2BA:2    )
+TH        ERC       TH    Tue Oct 16              (   2BA:2   2Ac:3    )
+ERC       LO        CRRC  Tue Oct 30              (      :0      :0    )
+ERC       CAC       CRRC  Tue Nov 13              (  2BAc:4  2BAc:4    )
+ERC       MAC       CRRC  Tue Nov 27              (      :0      :0    )
+ERC       MPRC      CRRC  Tue Dec 04 Consecutive  (    1B:5  1B2A:6    )
+PTC       ERC       PTC   Tue Jan 15              (      :0      :0    )
+Sep: 1 Oct: 3 Nov: 2 Dec: 1 Jan: 1  
+
+##### LO G #####
+LO        SAC       LO    Tue Sep 11              (      :0    1A:5    )
+LO        WH        LO    Tue Sep 25              (  1A2B:6    1B:5    )
+LO        PTC       LO    Tue Oct 02 Consecutive  (      :0      :0    )
+MAC       LO        MAC   Tue Oct 16              (    2A:1   2BA:2    )
+ERC       LO        CRRC  Tue Oct 30              (      :0      :0    )
+LO        TH        LO    Tue Nov 13              (   2BA:2    2B:1    )
+MPRC      LO        MPRC  Tue Nov 27              (      :0      :0 C:1)
+CAC       LO        CAC   Tue Jan 15              (      :0      :0    )
+Sep: 2 Oct: 3 Nov: 2 Dec: 0 Jan: 1   Check
+
+##### SAC G #####
+LO        SAC       LO    Tue Sep 11              (      :0    1A:5    )
+SAC       MPRC      SAC   Tue Sep 18 Consecutive  (      :0      :0    )
+SAC       ERC       SAC   Tue Oct 02              (    2B:1   2BA:2    )
+WH        SAC       WH    Tue Oct 30              (      :0      :0 C:1)
+SAC       TH        SAC   Tue Nov 27              (      :0    2B:1    )
+PTC       SAC       PTC   Tue Dec 18              (     c:2     c:2    )
+SAC       CAC       SAC   Tue Jan 08              (   1Ac:7   1Ac:7    )
+MAC       SAC       MAC   Tue Jan 15 Consecutive  (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 1 Jan: 2  
+
+##### MAC G #####
+CAC       MAC       CAC   Tue Sep 18              (      :0      :0    )
+TH        MAC       TH    Tue Oct 02              (      :0   2BA:2    )
+MAC       LO        MAC   Tue Oct 16              (    2A:1   2BA:2    )
+MAC       PTC       MAC   Tue Oct 30              (      :0      :0    )
+MPRC      MAC       MPRC  Tue Nov 13              (    2A:1   2BA:2 C:1)
+ERC       MAC       CRRC  Tue Nov 27              (      :0      :0    )
+MAC       WH        MAC   Tue Dec 18              (      :0      :0    )
+MAC       SAC       MAC   Tue Jan 15              (      :0      :0    )
+Sep: 1 Oct: 3 Nov: 2 Dec: 1 Jan: 1  
+
+##### TH G #####
+PTC       TH        PTC   Tue Sep 11              (      :0      :0    )
+TH        MAC       TH    Tue Oct 02              (      :0   2BA:2    )
+TH        ERC       TH    Tue Oct 16              (   2BA:2   2Ac:3    )
+TH        CAC       TH    Tue Oct 30              (      :0      :0    )
+LO        TH        LO    Tue Nov 13              (   2BA:2    2B:1    )
+SAC       TH        SAC   Tue Nov 27              (      :0    2B:1    )
+TH        MPRC      TH    Tue Dec 18              (      :0      :0    )
+WH        TH        WH    Tue Jan 08              (      :0      :0    )
+Sep: 1 Oct: 3 Nov: 2 Dec: 1 Jan: 1  
+
+##### MPRC H #####
+SAC       MPRC      SAC   Tue Sep 11              (   2Ac:3    2A:1    )
+MPRC      IRV       MPRC  Tue Sep 25              (      :0      :0    )
+SHC       MPRC      SHC   Tue Oct 16              (      :0      :0    )
+VTC       MPRC      VTC   Tue Oct 23 Consecutive  (   1Ac:7  1B2A:6    )
+MPRC      TH        MPRC  Tue Nov 06              (      :0      :0    )
+PAC       MPRC      PAC   Tue Dec 04              (      :0      :0    )
+MPRC      WH        MPRC  Tue Dec 18              (    2B:1    1B:5    )
+MPRC      MAC       MPRC  Tue Jan 15              (      :0      :0 C:1)
+Sep: 2 Oct: 2 Nov: 1 Dec: 2 Jan: 1  
+
+##### WH H #####
+IRV       WH        IRV   Tue Sep 11              (    2A:1    2A:1    )
+WH        SAC       WH    Tue Sep 25              (      :0      :0 C:1)
+WH        PAC       WH    Tue Oct 16              (    2A:1   2Bc:3    )
+WH        VTC       WH    Tue Oct 30              (      :0      :0    )
+WH        SHC       WH    Tue Nov 27              (    2A:1      :0    )
+MAC       WH        MAC   Tue Dec 11              (      :0      :0    )
+MPRC      WH        MPRC  Tue Dec 18 Consecutive  (    2B:1    1B:5    )
+TH        WH        TH    Tue Jan 15              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 2 Jan: 1  
+
+##### VTC H #####
+VTC       SHC       VTC   Tue Sep 11              (      :0    2A:1    )
+VTC       PAC       VTC   Tue Oct 02              (      :0    2B:1    )
+VTC       MPRC      VTC   Tue Oct 23              (   1Ac:7  1B2A:6    )
+WH        VTC       WH    Tue Oct 30 Consecutive  (      :0      :0    )
+IRV       VTC       IRV   Tue Nov 13              (  1B2A:6  2BAc:4    )
+VTC       SAC       VTC   Tue Nov 27              (      :0     c:2    )
+TH        VTC       TH    Tue Dec 18              (      :0     c:2 C:1)
+MAC       VTC       MAC   Tue Jan 08              (    1A:5     c:2    )
+Sep: 1 Oct: 3 Nov: 2 Dec: 1 Jan: 1  
+
+##### IRV H #####
+IRV       WH        IRV   Tue Sep 11              (    2A:1    2A:1    )
+MPRC      IRV       MPRC  Tue Sep 25              (      :0      :0    )
+IRV       MAC       IRV   Tue Oct 16              (      :0      :0    )
+SHC       IRV       SHC   Tue Nov 06              (      :0      :0    )
+IRV       VTC       IRV   Tue Nov 13 Consecutive  (  1B2A:6  2BAc:4    )
+IRV       TH        IRV   Tue Nov 27              (      :0      :0    )
+SAC       IRV       SAC   Tue Dec 18              (      :0      :0    )
+PAC       IRV       PAC   Tue Jan 15              (      :0      :0    )
+Sep: 2 Oct: 1 Nov: 3 Dec: 1 Jan: 1   Check
+
+##### SAC H #####
+SAC       MPRC      SAC   Tue Sep 11              (   2Ac:3    2A:1    )
+WH        SAC       WH    Tue Sep 25              (      :0      :0 C:1)
+SAC       TH        SAC   Tue Oct 16              (      :0      :0    )
+PAC       SAC       PAC   Tue Oct 30              (  1A2B:6   2Bc:3    )
+SAC       MAC       SAC   Tue Nov 13              (   2BA:2    1B:5    )
+VTC       SAC       VTC   Tue Nov 27              (      :0     c:2    )
+SAC       IRV       SAC   Tue Dec 18              (      :0      :0    )
+SHC       SAC       SHC   Tue Jan 08              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### MAC H #####
+MAC       SHC       MAC   Tue Sep 25              (      :0      :0    )
+IRV       MAC       IRV   Tue Oct 16              (      :0      :0    )
+MAC       PAC       MAC   Tue Nov 06              (      :0     c:2    )
+SAC       MAC       SAC   Tue Nov 13 Consecutive  (   2BA:2    1B:5    )
+TH        MAC       TH    Tue Dec 04              (  1B2A:6    1A:5    )
+MAC       WH        MAC   Tue Dec 11 Consecutive  (      :0      :0    )
+MAC       VTC       MAC   Tue Jan 08              (    1A:5     c:2    )
+MPRC      MAC       MPRC  Tue Jan 15 Consecutive  (      :0      :0 C:1)
+Sep: 1 Oct: 1 Nov: 2 Dec: 2 Jan: 2  
+
+##### PAC H #####
+TH        PAC       TH    Tue Sep 18              (      :0      :0    )
+VTC       PAC       VTC   Tue Oct 02              (      :0    2B:1    )
+WH        PAC       WH    Tue Oct 16              (    2A:1   2Bc:3    )
+PAC       SAC       PAC   Tue Oct 30              (  1A2B:6   2Bc:3    )
+MAC       PAC       MAC   Tue Nov 06 Consecutive  (      :0     c:2    )
+PAC       MPRC      PAC   Tue Dec 04              (      :0      :0    )
+PAC       SHC       PAC   Tue Dec 18              (   2Bc:3      :0    )
+PAC       IRV       PAC   Tue Jan 15              (      :0      :0    )
+Sep: 1 Oct: 3 Nov: 1 Dec: 2 Jan: 1  
+
+##### TH H #####
+TH        PAC       TH    Tue Sep 18              (      :0      :0    )
+SHC       TH        SHC   Tue Oct 02              (  1B2A:6   2BA:2    )
+SAC       TH        SAC   Tue Oct 16              (      :0      :0    )
+MPRC      TH        MPRC  Tue Nov 06              (      :0      :0    )
+IRV       TH        IRV   Tue Nov 27              (      :0      :0    )
+TH        MAC       TH    Tue Dec 04 Consecutive  (  1B2A:6    1A:5    )
+TH        VTC       TH    Tue Dec 18              (      :0     c:2 C:1)
+TH        WH        TH    Tue Jan 15              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 2 Jan: 1  
+
+##### SHC H #####
+VTC       SHC       VTC   Tue Sep 11              (      :0    2A:1    )
+MAC       SHC       MAC   Tue Sep 25              (      :0      :0    )
+SHC       TH        SHC   Tue Oct 02 Consecutive  (  1B2A:6   2BA:2    )
+SHC       MPRC      SHC   Tue Oct 16              (      :0      :0    )
+SHC       IRV       SHC   Tue Nov 06              (      :0      :0    )
+WH        SHC       WH    Tue Nov 27              (    2A:1      :0    )
+PAC       SHC       PAC   Tue Dec 18              (   2Bc:3      :0    )
+SHC       SAC       SHC   Tue Jan 08              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### MPRC I #####
+MPRC      HR        MPRC  Tue Sep 11              (    2A:1    2A:1 C:1)
+MPRC      PTC       MPRC  Tue Sep 25              (      :0      :0 C:1)
+ERC       MPRC      CRRC  Tue Oct 09              (    2B:1   2BA:2    )
+TH        MPRC      TH    Tue Oct 23              (      :0      :0    )
+MPRC      CRRC      MPRC  Tue Nov 13              (      :0      :0    )
+CGM       MPRC      CGM   Tue Dec 04              (      :0    2A:1    )
+VTC       MPRC      VTC   Tue Dec 18              (      :0      :0    )
+MPRC      CAC       MPRC  Tue Jan 08              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 2 Jan: 1  
+
+##### PTC I #####
+MPRC      PTC       MPRC  Tue Sep 25              (      :0      :0 C:1)
+HR        PTC       GLN   Tue Oct 09              (  1A2B:6   2BA:2    )
+PTC       TH        PTC   Tue Oct 16 Consecutive  (  1BA:10    1A:5    )
+PTC       VTC       PTC   Tue Oct 23 Consecutive  (      :0      :0    )
+PTC       ERC       PTC   Tue Nov 13              (      :0      :0    )
+PTC       CGM       PTC   Tue Nov 27              (  2BAc:4    1A:5    )
+CAC       PTC       CAC   Tue Dec 11              (      :0      :0    )
+CRRC      PTC       CRRC  Tue Jan 15              (     c:2     c:2    )
+Sep: 1 Oct: 3 Nov: 2 Dec: 1 Jan: 1  
+
+##### VTC I #####
+CRRC      VTC       CRRC  Tue Sep 25              (      :0      :0    )
+VTC       ERC       VTC   Tue Oct 16              (    1A:5    1B:5    )
+PTC       VTC       PTC   Tue Oct 23 Consecutive  (      :0      :0    )
+VTC       TH        VTC   Tue Nov 06              (  1A2B:6    2B:1    )
+CAC       VTC       CAC   Tue Nov 13 Consecutive  (      :0      :0    )
+HR        VTC       GLN   Tue Dec 11              (    2B:1    1A:5    )
+VTC       MPRC      VTC   Tue Dec 18 Consecutive  (      :0      :0    )
+VTC       CGM       VTC   Tue Jan 08              (      :0   1Ac:7    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 2 Jan: 1  
+
+##### CAC I #####
+ERC       CAC       CRRC  Tue Sep 11              (   2Ac:3     c:2    )
+TH        CAC       TH    Tue Sep 25              (    2B:1   2BA:2    )
+CAC       CRRC      CAC   Tue Oct 09              (      :0  1A2B:6    )
+CAC       HR        CAC   Tue Oct 30              (   2Ac:3    2B:1    )
+CAC       VTC       CAC   Tue Nov 13              (      :0      :0    )
+CAC       PTC       CAC   Tue Dec 11              (      :0      :0    )
+CGM       CAC       CGM   Tue Dec 18 Consecutive  (   2Bc:3    1B:5    )
+MPRC      CAC       MPRC  Tue Jan 08              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 2 Jan: 1  
+
+##### CGM I #####
+TH        CGM       TH    Tue Sep 11              (      :0      :0    )
+CGM       CRRC      CGM   Tue Oct 30              (      :0  2BAc:4    )
+ERC       CGM       CRRC  Tue Nov 06 Consecutive  (    1A:5   1Bc:7    )
+PTC       CGM       PTC   Tue Nov 27              (  2BAc:4    1A:5    )
+CGM       MPRC      CGM   Tue Dec 04 Consecutive  (      :0    2A:1    )
+CGM       CAC       CGM   Tue Dec 18              (   2Bc:3    1B:5    )
+VTC       CGM       VTC   Tue Jan 08              (      :0   1Ac:7    )
+CGM       HR        CGM   Tue Jan 15 Consecutive  (      :0      :0    )
+Sep: 1 Oct: 1 Nov: 2 Dec: 2 Jan: 2  
+
+##### CRRC I #####
+CRRC      VTC       CRRC  Tue Sep 25              (      :0      :0    )
+CAC       CRRC      CAC   Tue Oct 09              (      :0  1A2B:6    )
+HR        CRRC      GLN   Tue Oct 16 Consecutive  (      :0      :0    )
+CGM       CRRC      CGM   Tue Oct 30              (      :0  2BAc:4    )
+MPRC      CRRC      MPRC  Tue Nov 13              (      :0      :0    )
+CRRC      TH        CRRC  Tue Dec 11              (    1A:5    2B:1    )
+CRRC      ERC       CRRC  Tue Dec 18 Consecutive  (      :0      :0    )
+CRRC      PTC       CRRC  Tue Jan 15              (     c:2     c:2    )
+Sep: 1 Oct: 3 Nov: 1 Dec: 2 Jan: 1  
+
+##### ERC I #####
+ERC       CAC       CRRC  Tue Sep 11              (   2Ac:3     c:2    )
+HR        ERC       GLN   Tue Sep 25              (      :0      :0    )
+ERC       MPRC      CRRC  Tue Oct 09              (    2B:1   2BA:2    )
+VTC       ERC       VTC   Tue Oct 16 Consecutive  (    1A:5    1B:5    )
+ERC       CGM       CRRC  Tue Nov 06              (    1A:5   1Bc:7    )
+PTC       ERC       PTC   Tue Nov 13 Consecutive  (      :0      :0    )
+CRRC      ERC       CRRC  Tue Dec 18              (      :0      :0    )
+ERC       TH        CRRC  Tue Jan 08              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### HR I #####
+MPRC      HR        MPRC  Tue Sep 11              (    2A:1    2A:1 C:1)
+HR        ERC       GLN   Tue Sep 25              (      :0      :0    )
+HR        PTC       GLN   Tue Oct 09              (  1A2B:6   2BA:2    )
+HR        CRRC      GLN   Tue Oct 16 Consecutive  (      :0      :0    )
+CAC       HR        CAC   Tue Oct 30              (   2Ac:3    2B:1    )
+TH        HR        TH    Tue Nov 27              (      :0      :0    )
+HR        VTC       GLN   Tue Dec 11              (    2B:1    1A:5    )
+CGM       HR        CGM   Tue Jan 15              (      :0      :0    )
+Sep: 2 Oct: 3 Nov: 1 Dec: 1 Jan: 1  
+
+##### TH I #####
+TH        CGM       TH    Tue Sep 11              (      :0      :0    )
+TH        CAC       TH    Tue Sep 25              (    2B:1   2BA:2    )
+PTC       TH        PTC   Tue Oct 16              (  1BA:10    1A:5    )
+TH        MPRC      TH    Tue Oct 23 Consecutive  (      :0      :0    )
+VTC       TH        VTC   Tue Nov 06              (  1A2B:6    2B:1    )
+TH        HR        TH    Tue Nov 27              (      :0      :0    )
+CRRC      TH        CRRC  Tue Dec 11              (    1A:5    2B:1    )
+ERC       TH        CRRC  Tue Jan 08              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### MPRC J #####
+MPRC      GLN-1     MPRC  Tue Sep 18              (    2A:1      :0    )
+MPRC      MAC       MPRC  Tue Oct 02              (      :0      :0    )
+LO-2      MPRC      LO    Tue Oct 16              (    1B:5  1A2B:6    )
+MPRC      CGM       MPRC  Tue Oct 23 Consecutive  (      :0  1B2A:6    )
+LONG      MPRC      CGM   Tue Nov 13              (  1B2A:6    2A:1    )
+MPRC      LO-1      MPRC  Tue Nov 27              (      :0      :0    )
+GLN-2     MPRC      GLN   Tue Dec 18              (      :0      :0    )
+Sep: 1 Oct: 3 Nov: 2 Dec: 1 Jan: 0  
+
+##### CGM J #####
+CGM       GLN-1     CGM   Tue Sep 11              (     c:2    1A:5    )
+CGM       LO-1      CGM   Tue Oct 16              (      :0      :0    )
+MPRC      CGM       MPRC  Tue Oct 23 Consecutive  (      :0  1B2A:6    )
+CGM       MAC       CGM   Tue Nov 06              (      :0      :0    )
+GLN-2     CGM       GLN   Tue Nov 27              (      :0   2Ac:3    )
+LO-2      CGM       LO    Tue Dec 11              (      :0      :0    )
+LONG      CGM       CGM   Tue Jan 08              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### LONG J #####
+LONG      GLN-2     CGM   Tue Sep 25              (    2A:1      :0    )
+LONG      LO-2      CGM   Tue Oct 09              (      :0      :0    )
+GLN-1     LONG      GLN   Tue Nov 06              (      :0      :0    )
+LONG      MPRC      CGM   Tue Nov 13 Consecutive  (  1B2A:6    2A:1    )
+MAC       LONG      MAC   Tue Nov 27              (      :0     c:2    )
+LO-1      LONG      LO    Tue Dec 18              (      :0      :0    )
+LONG      CGM       CGM   Tue Jan 08              (      :0      :0    )
+Sep: 1 Oct: 1 Nov: 3 Dec: 1 Jan: 1   Check
+
+##### GLN-1 J #####
+CGM       GLN-1     CGM   Tue Sep 11              (     c:2    1A:5    )
+MPRC      GLN-1     MPRC  Tue Sep 18 Consecutive  (    2A:1      :0    )
+MAC       GLN-1     MAC   Tue Oct 09              (    1B:5      :0    )
+GLN-1     LO-2      GLN   Tue Oct 23              (   2BA:2 1B2BA:7    )
+GLN-1     LONG      GLN   Tue Nov 06              (      :0      :0    )
+LO-1      GLN-1     LO    Tue Dec 04              (  1B2A:6      :0    )
+GLN-1     GLN-2     GLN   Tue Jan 08              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 1 Jan: 1  
+
+##### GLN-2 J #####
+GLN-2     MAC       GLN   Tue Sep 11              (    2A:1      :0    )
+LONG      GLN-2     CGM   Tue Sep 25              (    2A:1      :0    )
+GLN-2     LO-1      GLN   Tue Oct 02 Consecutive  (    1B:5    2A:1    )
+LO-2      GLN-2     LO    Tue Nov 06              (      :0      :0    )
+GLN-2     CGM       GLN   Tue Nov 27              (      :0   2Ac:3    )
+GLN-2     MPRC      GLN   Tue Dec 18              (      :0      :0    )
+GLN-1     GLN-2     GLN   Tue Jan 08              (      :0      :0    )
+Sep: 2 Oct: 1 Nov: 2 Dec: 1 Jan: 1  
+
+##### LO-1 J #####
+GLN-2     LO-1      GLN   Tue Oct 02              (    1B:5    2A:1    )
+CGM       LO-1      CGM   Tue Oct 16              (      :0      :0    )
+MPRC      LO-1      MPRC  Tue Nov 27              (      :0      :0    )
+LO-1      GLN-1     LO    Tue Dec 04 Consecutive  (  1B2A:6      :0    )
+LO-1      LONG      LO    Tue Dec 18              (      :0      :0    )
+LO-1      MAC       LO    Tue Jan 08              (    1A:5      :0    )
+LO-2      LO-1      LO    Tue Jan 15 Consecutive  (      :0      :0    )
+Sep: 0 Oct: 2 Nov: 1 Dec: 2 Jan: 2   Check
+
+##### LO-2 J #####
+LONG      LO-2      CGM   Tue Oct 09              (      :0      :0    )
+LO-2      MPRC      LO    Tue Oct 16 Consecutive  (    1B:5  1A2B:6    )
+GLN-1     LO-2      GLN   Tue Oct 23 Consecutive  (   2BA:2 1B2BA:7    )
+LO-2      GLN-2     LO    Tue Nov 06              (      :0      :0    )
+MAC       LO-2      MAC   Tue Nov 13 Consecutive  (  1B2A:6    1B:5    )
+LO-2      CGM       LO    Tue Dec 11              (      :0      :0    )
+LO-2      LO-1      LO    Tue Jan 15              (      :0      :0    )
+Sep: 0 Oct: 3 Nov: 2 Dec: 1 Jan: 1   Check
+
+##### MAC J #####
+GLN-2     MAC       GLN   Tue Sep 11              (    2A:1      :0    )
+MPRC      MAC       MPRC  Tue Oct 02              (      :0      :0    )
+MAC       GLN-1     MAC   Tue Oct 09 Consecutive  (    1B:5      :0    )
+CGM       MAC       CGM   Tue Nov 06              (      :0      :0    )
+MAC       LO-2      MAC   Tue Nov 13 Consecutive  (  1B2A:6    1B:5    )
+MAC       LONG      MAC   Tue Nov 27              (      :0     c:2    )
+LO-1      MAC       LO    Tue Jan 08              (    1A:5      :0    )
+Sep: 1 Oct: 2 Nov: 3 Dec: 0 Jan: 1   Check
+
+##### MPRC K #####
+MPRC      MAC       MPRC  Tue Sep 11              (    2A:1      :0    )
+VTC       MPRC      VTC   Tue Sep 25              (      :0      :0    )
+MPRC      WH        MPRC  Tue Oct 09              (    2B:1   2BA:2 C:1)
+MPRC      TH        MPRC  Tue Oct 30              (      :0      :0    )
+SAC       MPRC      SAC   Tue Dec 04              (      :0    1A:5    )
+PAC       MPRC      PAC   Tue Dec 11 Consecutive  (      :0      :0    )
+MPRC      CAC       MPRC  Tue Jan 15              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 0 Dec: 2 Jan: 1   Check
+
+##### WH K #####
+VTC       WH        VTC   Tue Sep 18              (   1Ac:7    1A:5    )
+WH        TH        WH    Tue Sep 25 Consecutive  (      :0      :0    )
+MPRC      WH        MPRC  Tue Oct 09              (    2B:1   2BA:2 C:1)
+WH        CAC       WH    Tue Oct 23              (      :0     c:2    )
+PAC       WH        PAC   Tue Nov 27              (  2BAc:4      :0    )
+WH        MAC       WH    Tue Dec 18              (      :0    2B:1    )
+SAC       WH        SAC   Tue Jan 15              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 1 Jan: 1  
+
+##### VTC K #####
+VTC       WH        VTC   Tue Sep 18              (   1Ac:7    1A:5    )
+VTC       MPRC      VTC   Tue Sep 25 Consecutive  (      :0      :0    )
+VTC       PAC       VTC   Tue Oct 09              (   2BA:2    2B:1    )
+MAC       VTC       MAC   Tue Oct 23              (      :0      :0    )
+VTC       SAC       VTC   Tue Nov 13              (      :0     c:2    )
+TH        VTC       TH    Tue Dec 11              (      :0      :0    )
+CAC       VTC       CAC   Tue Jan 08              (   1Ac:7      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 1 Jan: 1  
+
+##### CAC K #####
+CAC       SAC       CAC   Tue Sep 11              (    2A:1      :0    )
+CAC       PAC       CAC   Tue Sep 25              (     c:2      :0    )
+WH        CAC       WH    Tue Oct 23              (      :0     c:2    )
+TH        CAC       TH    Tue Nov 13              (    2B:1     c:2    )
+MAC       CAC       MAC   Tue Dec 04              (      :0      :0    )
+CAC       VTC       CAC   Tue Jan 08              (   1Ac:7      :0    )
+MPRC      CAC       MPRC  Tue Jan 15 Consecutive  (      :0      :0    )
+Sep: 2 Oct: 1 Nov: 1 Dec: 1 Jan: 2  
+
+##### SAC K #####
+CAC       SAC       CAC   Tue Sep 11              (    2A:1      :0    )
+SAC       MAC       SAC   Tue Sep 25              (  2BAc:4    2B:1    )
+SAC       TH        SAC   Tue Oct 09              (     c:2    2B:1    )
+PAC       SAC       PAC   Tue Oct 23              (    2B:1   2Bc:3    )
+VTC       SAC       VTC   Tue Nov 13              (      :0     c:2    )
+SAC       MPRC      SAC   Tue Dec 04              (      :0    1A:5    )
+SAC       WH        SAC   Tue Jan 15              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 1 Jan: 1  
+
+##### MAC K #####
+MPRC      MAC       MPRC  Tue Sep 11              (    2A:1      :0    )
+MAC       TH        MAC   Tue Sep 18 Consecutive  (  1BA:10    1A:5    )
+SAC       MAC       SAC   Tue Sep 25 Consecutive  (  2BAc:4    2B:1    )
+MAC       VTC       MAC   Tue Oct 23              (      :0      :0    )
+PAC       MAC       PAC   Tue Nov 13              (      :0      :0    )
+MAC       CAC       MAC   Tue Dec 04              (      :0      :0    )
+WH        MAC       WH    Tue Dec 18              (      :0    2B:1    )
+Sep: 3 Oct: 1 Nov: 1 Dec: 2 Jan: 0   Check
+
+##### PAC K #####
+CAC       PAC       CAC   Tue Sep 25              (     c:2      :0    )
+VTC       PAC       VTC   Tue Oct 09              (   2BA:2    2B:1    )
+PAC       SAC       PAC   Tue Oct 23              (    2B:1   2Bc:3    )
+PAC       MAC       PAC   Tue Nov 13              (      :0      :0    )
+PAC       WH        PAC   Tue Nov 27              (  2BAc:4      :0    )
+PAC       MPRC      PAC   Tue Dec 11              (      :0      :0    )
+TH        PAC       TH    Tue Jan 08              (      :0      :0    )
+Sep: 1 Oct: 2 Nov: 2 Dec: 1 Jan: 1  
+
+##### TH K #####
+MAC       TH        MAC   Tue Sep 18              (  1BA:10    1A:5    )
+WH        TH        WH    Tue Sep 25 Consecutive  (      :0      :0    )
+SAC       TH        SAC   Tue Oct 09              (     c:2    2B:1    )
+MPRC      TH        MPRC  Tue Oct 30              (      :0      :0    )
+TH        CAC       TH    Tue Nov 13              (    2B:1     c:2    )
+TH        VTC       TH    Tue Dec 11              (      :0      :0    )
+TH        PAC       TH    Tue Jan 08              (      :0      :0    )
+Sep: 2 Oct: 2 Nov: 1 Dec: 1 Jan: 1  
+

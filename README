@@ -1,0 +1,54 @@
+
+Tennis League Scheduler
+
+This program has been used to schedule a Tennis League (Portland Woman's
+Tennis). The league is comprised of roughly 100 teams and 16
+Clubs. Substantial effort was made to make the scheduler flexible through the
+use of numerous properties files. The flexibility the properties files
+provide are tailored to the rules and situations specific to this league. I
+would expect the effort to make the scheduler work with other leagues would
+be substantial.
+
+There are four required properties files:
+    club.properties
+    date.properties
+    scheduler.properties
+    team.properties
+
+Each of these properties files are documented with comments that explain the
+expected content of each file.
+
+The 'TennisScheduler' directory is actually a 'NetBeans project'. It is easiest
+to just run with NetBeans.
+
+To run this program within NetBeans:
+   Copy project directory 'TennisScheduler' to 'NetBeansProjects' directory
+   Create the properties files from the example property files provided
+   Copy properties files to top of 'TennisScheduler' directory and make any
+       required changes
+   Open the 'TennisScheduler' project
+   Run Project from NetBeans
+
+Each Club will have a list of teams it will be hosting and the division they
+play in. Each team win play two games (Home/Away) against each team in it's
+division. There is acutally two seasons: Fall & Spring.
+
+The scheduler has a number of fixed constraints to be considered. Examples
+would be:
+    The number of courts that are available for each day at a club
+    The days that courts are available each club
+    Division matches can only be scheduled on a specific day
+    The order that divisions are scheduled in
+    Variable times for spring breaks (no games schedule if either the school
+        district is out for spring break)
+    A team can specify blackout dates when the are not available for play
+These (and more) can be specified in the property files.
+
+There are also some 'dynamic' contraints the scheduler must support:
+    Weighting is used to spread a teams scheduled matches. This will minimized
+        the changes that a team will play two (or more) weeks in a row.
+
+As a result of limited court availablity and a large number of constraints it
+is possible that all matches cannot be scheduled. When this happens, the
+unscheduled matches are listed so they can be manually scheduled. There is some
+randomness so running it multiple will different results.

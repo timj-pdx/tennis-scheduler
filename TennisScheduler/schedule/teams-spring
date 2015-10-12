@@ -1,0 +1,1007 @@
+##### MPRC-1 A #####
+MPRC-1    MAC       MPRC  Wed Jan 30              (      :0      :0    )
+MPRC-1    CAC       MPRC  Wed Feb 20              (      :0    2B:1    )
+VTC       MPRC-1    VTC   Wed Feb 27 Consecutive  (    2A:1  1B2A:6    )
+TH        MPRC-1    TH    Wed Mar 13              (      :0      :0 C:1)
+MPRC-1    WH        MPRC  Wed Apr 10              (      :0      :0    )
+SAC       MPRC-1    SAC   Wed Apr 17 Consecutive  ( 1BAc:12    1B:5    )
+MPRC-2    MPRC-1    MPRC  Wed May 08              (  1B2A:6      :0 C:1)
+Jan: 1 Feb: 2 Mar: 1 Apr: 2 May: 1  
+
+##### MPRC-2 A #####
+TH        MPRC-2    TH    Wed Feb 13              (      :0      :0    )
+SAC       MPRC-2    SAC   Wed Feb 27              (    2A:1    2B:1    )
+MPRC-2    WH        MPRC  Wed Mar 13              (    2B:1      :0 C:1)
+MPRC-2    MAC       MPRC  Wed Apr 03              (      :0    2A:1    )
+MPRC-2    CAC       MPRC  Wed May 01              (      :0      :0 C:1)
+MPRC-2    MPRC-1    MPRC  Wed May 08 Consecutive  (  1B2A:6      :0 C:1)
+VTC       MPRC-2    VTC   Wed May 22              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 1 May: 3   Check
+
+##### WH A #####
+CAC       WH        CAC   Wed Feb 06              (    1B:5    2A:1    )
+MAC       WH        MAC   Wed Feb 20              (      :0      :0    )
+MPRC-2    WH        MPRC  Wed Mar 13              (    2B:1      :0 C:1)
+MPRC-1    WH        MPRC  Wed Apr 10              (      :0      :0    )
+WH        VTC       WH    Wed May 01              (    1A:5    2B:1    )
+WH        SAC       WH    Wed May 08 Consecutive  (      :0      :0    )
+WH        TH        WH    Wed May 22              (    2B:1    2B:1 C:1)
+Jan: 0 Feb: 2 Mar: 1 Apr: 1 May: 3   Check
+
+##### VTC A #####
+VTC       SAC       VTC   Wed Feb 06              (      :0      :0    )
+VTC       TH        VTC   Wed Feb 20              (  1A2B:6    1B:5    )
+VTC       MPRC-1    VTC   Wed Feb 27 Consecutive  (    2A:1  1B2A:6    )
+CAC       VTC       CAC   Wed Mar 13              (      :0      :0    )
+MAC       VTC       MAC   Wed Apr 17              (      :0      :0    )
+WH        VTC       WH    Wed May 01              (    1A:5    2B:1    )
+VTC       MPRC-2    VTC   Wed May 22              (      :0      :0    )
+Jan: 0 Feb: 3 Mar: 1 Apr: 1 May: 2   Check
+
+##### CAC A #####
+TH        CAC       TH    Wed Jan 30              (    2A:1      :0    )
+CAC       WH        CAC   Wed Feb 06 Consecutive  (    1B:5    2A:1    )
+MPRC-1    CAC       MPRC  Wed Feb 20              (      :0    2B:1    )
+CAC       VTC       CAC   Wed Mar 13              (      :0      :0    )
+CAC       MAC       CAC   Wed Mar 20 Consecutive  (   1Bc:7  1B2A:6    )
+SAC       CAC       SAC   Wed Apr 10              (      :0      :0    )
+MPRC-2    CAC       MPRC  Wed May 01              (      :0      :0 C:1)
+Jan: 1 Feb: 2 Mar: 2 Apr: 1 May: 1  
+
+##### SAC A #####
+VTC       SAC       VTC   Wed Feb 06              (      :0      :0    )
+SAC       MPRC-2    SAC   Wed Feb 27              (    2A:1    2B:1    )
+SAC       MAC       SAC   Wed Mar 13              (      :0      :0    )
+SAC       CAC       SAC   Wed Apr 10              (      :0      :0    )
+SAC       MPRC-1    SAC   Wed Apr 17 Consecutive  ( 1BAc:12    1B:5    )
+TH        SAC       TH    Wed Apr 24 Consecutive  (    2A:1   2BA:2    )
+WH        SAC       WH    Wed May 08              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 3 May: 1   Check
+
+##### MAC A #####
+MPRC-1    MAC       MPRC  Wed Jan 30              (      :0      :0    )
+MAC       WH        MAC   Wed Feb 20              (      :0      :0    )
+SAC       MAC       SAC   Wed Mar 13              (      :0      :0    )
+CAC       MAC       CAC   Wed Mar 20 Consecutive  (   1Bc:7  1B2A:6    )
+MPRC-2    MAC       MPRC  Wed Apr 03              (      :0    2A:1    )
+MAC       VTC       MAC   Wed Apr 17              (      :0      :0    )
+MAC       TH        MAC   Wed May 08              (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 2 May: 1  
+
+##### TH A #####
+TH        CAC       TH    Wed Jan 30              (    2A:1      :0    )
+TH        MPRC-2    TH    Wed Feb 13              (      :0      :0    )
+VTC       TH        VTC   Wed Feb 20 Consecutive  (  1A2B:6    1B:5    )
+TH        MPRC-1    TH    Wed Mar 13              (      :0      :0 C:1)
+TH        SAC       TH    Wed Apr 24              (    2A:1   2BA:2    )
+MAC       TH        MAC   Wed May 08              (      :0      :0    )
+WH        TH        WH    Wed May 22              (    2B:1    2B:1 C:1)
+Jan: 1 Feb: 2 Mar: 1 Apr: 1 May: 2  
+
+##### MPRC B #####
+MPRC      LO        MPRC  Wed Feb 06              (      :0  1B2A:6    )
+MAC-Black MPRC      MAC   Wed Feb 27              (      :0    2A:1    )
+MPRC      MAC-Red   MPRC  Wed Mar 13              (      :0      :0    )
+IRV       MPRC      IRV   Wed Mar 20 Consecutive  (   1Bc:7  1B2A:6    )
+ERC       MPRC      CRRC  Wed Apr 03              (    1A:5      :0    )
+MPRC      SLM       MPRC  Wed Apr 17              (   2BA:2    1A:5 C:1)
+MPRC      CGM       MPRC  Wed May 01              (      :0      :0    )
+WH        MPRC      WH    Wed May 22              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 2 May: 2  
+
+##### WH B #####
+LO        WH        LO    Wed Jan 30              (   2Bc:3      :0    )
+CGM       WH        CGM   Wed Feb 06 Consecutive  (      :0    1B:5    )
+WH        ERC       WH    Wed Feb 20              (    2B:1  1A2B:6    )
+SLM       WH        GLN   Wed Mar 06              (  1A2B:6   2BA:2    )
+WH        MAC-Black WH    Wed Mar 20              (      :0      :0    )
+WH        IRV       WH    Wed Apr 10              (      :0      :0    )
+MAC-Red   WH        MAC   Wed May 01              (      :0      :0    )
+WH        MPRC      WH    Wed May 22              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 2 Apr: 1 May: 2  
+
+##### CGM B #####
+CGM       WH        CGM   Wed Feb 06              (      :0    1B:5    )
+MAC-Red   CGM       MAC   Wed Feb 13 Consecutive  (  1A2B:6 1B2Ac:8 C:1)
+CGM       ERC       CGM   Wed Feb 27              (      :0    2A:1    )
+SLM       CGM       GLN   Wed Mar 13              (      :0    2B:1    )
+CGM       MAC-Black CGM   Wed Apr 10              (      :0      :0    )
+LO        CGM       LO    Wed Apr 24              (  2BAc:4 1A2Bc:8    )
+MPRC      CGM       MPRC  Wed May 01 Consecutive  (      :0      :0    )
+CGM       IRV       CGM   Wed May 22              (     c:2   2Bc:3 C:1)
+Jan: 0 Feb: 3 Mar: 1 Apr: 2 May: 2   Check
+
+##### ERC B #####
+MAC-Black ERC       MAC   Wed Feb 06              (      :0      :0    )
+WH        ERC       WH    Wed Feb 20              (    2B:1  1A2B:6    )
+CGM       ERC       CGM   Wed Feb 27 Consecutive  (      :0    2A:1    )
+IRV       ERC       IRV   Wed Mar 13              (      :0      :0    )
+ERC       MPRC      CRRC  Wed Apr 03              (    1A:5      :0    )
+ERC       LO        CRRC  Wed Apr 10 Consecutive  (      :0      :0    )
+ERC       SLM       CRRC  Wed Apr 24              (    2B:1      :0    )
+ERC       MAC-Red   CRRC  Wed May 15              (      :0    2B:1    )
+Jan: 0 Feb: 3 Mar: 1 Apr: 3 May: 1   Check
+
+##### SLM B #####
+SLM       MAC-Red   GLN   Wed Jan 30              (    1A:5    2B:1    )
+IRV       SLM       IRV   Wed Feb 06 Consecutive  (      :0    2A:1    )
+SLM       LO        GLN   Wed Feb 20              (      :0      :0    )
+SLM       WH        GLN   Wed Mar 06              (  1A2B:6   2BA:2    )
+SLM       CGM       GLN   Wed Mar 13 Consecutive  (      :0    2B:1    )
+MPRC      SLM       MPRC  Wed Apr 17              (   2BA:2    1A:5 C:1)
+ERC       SLM       CRRC  Wed Apr 24 Consecutive  (    2B:1      :0    )
+MAC-Black SLM       MAC   Wed May 15              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 2 Apr: 2 May: 1  
+
+##### IRV B #####
+IRV       SLM       IRV   Wed Feb 06              (      :0    2A:1    )
+MAC-Red   IRV       MAC   Wed Feb 20              (      :0    2B:1 C:1)
+IRV       ERC       IRV   Wed Mar 13              (      :0      :0    )
+IRV       MPRC      IRV   Wed Mar 20 Consecutive  (   1Bc:7  1B2A:6    )
+WH        IRV       WH    Wed Apr 10              (      :0      :0    )
+IRV       MAC-Black IRV   Wed May 01              (    1A:5  1B2A:6    )
+LO        IRV       LO    Wed May 08 Consecutive  (      :0      :0    )
+CGM       IRV       CGM   Wed May 22              (     c:2   2Bc:3 C:1)
+Jan: 0 Feb: 2 Mar: 2 Apr: 1 May: 3   Check
+
+##### LO B #####
+LO        WH        LO    Wed Jan 30              (   2Bc:3      :0    )
+MPRC      LO        MPRC  Wed Feb 06 Consecutive  (      :0  1B2A:6    )
+SLM       LO        GLN   Wed Feb 20              (      :0      :0    )
+MAC-Red   LO        MAC   Wed Apr 03              (      :0   1Ac:7 C:1)
+ERC       LO        CRRC  Wed Apr 10 Consecutive  (      :0      :0    )
+LO        CGM       LO    Wed Apr 24              (  2BAc:4 1A2Bc:8    )
+LO        IRV       LO    Wed May 08              (      :0      :0    )
+LO        MAC-Black LO    Wed May 22              (   2Bc:3    1B:5    )
+Jan: 1 Feb: 2 Mar: 0 Apr: 3 May: 2   Check
+
+##### MAC-Black B #####
+MAC-Black ERC       MAC   Wed Feb 06              (      :0      :0    )
+MAC-Black MPRC      MAC   Wed Feb 27              (      :0    2A:1    )
+WH        MAC-Black WH    Wed Mar 20              (      :0      :0    )
+CGM       MAC-Black CGM   Wed Apr 10              (      :0      :0    )
+MAC-Black MAC-Red   MAC   Wed Apr 24              (    2B:1    1A:5 C:1)
+IRV       MAC-Black IRV   Wed May 01 Consecutive  (    1A:5  1B2A:6    )
+MAC-Black SLM       MAC   Wed May 15              (      :0      :0    )
+LO        MAC-Black LO    Wed May 22 Consecutive  (   2Bc:3    1B:5    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 2 May: 3   Check
+
+##### MAC-Red B #####
+SLM       MAC-Red   GLN   Wed Jan 30              (    1A:5    2B:1    )
+MAC-Red   CGM       MAC   Wed Feb 13              (  1A2B:6 1B2Ac:8 C:1)
+MAC-Red   IRV       MAC   Wed Feb 20 Consecutive  (      :0    2B:1 C:1)
+MPRC      MAC-Red   MPRC  Wed Mar 13              (      :0      :0    )
+MAC-Red   LO        MAC   Wed Apr 03              (      :0   1Ac:7 C:1)
+MAC-Black MAC-Red   MAC   Wed Apr 24              (    2B:1    1A:5 C:1)
+MAC-Red   WH        MAC   Wed May 01 Consecutive  (      :0      :0    )
+ERC       MAC-Red   CRRC  Wed May 15              (      :0    2B:1    )
+Jan: 1 Feb: 2 Mar: 1 Apr: 2 May: 2  
+
+##### MPRC C #####
+TH-2      MPRC      TH    Wed Feb 06              (      :0      :0 C:1)
+MPRC      SAC       MPRC  Wed Mar 06              (      :0      :0    )
+MPRC      SHC       MPRC  Wed Mar 20              (   2BA:2    1B:5    )
+GLN       MPRC      GLN   Wed Apr 03              (    2B:1    2A:1    )
+MPRC      TH-1      MPRC  Wed Apr 17              (      :0      :0    )
+MAC       MPRC      MAC   Wed May 01              (  1B2A:6   2BA:2 C:1)
+MPRC      CRRC      MPRC  Wed May 15              (    1A:5 1BAc:12 C:1)
+HR        MPRC      CAC   Wed May 22 Consecutive  (      :0      :0    )
+Jan: 0 Feb: 1 Mar: 2 Apr: 2 May: 3   Check
+
+##### HR C #####
+TH-1      HR        TH    Wed Jan 30              (    2A:1   2BA:2 C:1)
+SAC       HR        SAC   Wed Feb 13              (      :0      :0    )
+SHC       HR        SHC   Wed Feb 27              (    2A:1   2BA:2    )
+CRRC      HR        CRRC  Wed Mar 13              (      :0      :0    )
+HR        MAC       CAC   Wed Apr 03              (      :0      :0    )
+HR        GLN       CAC   Wed Apr 24              (      :0      :0    )
+HR        TH-2      CAC   Wed May 01 Consecutive  (    1B:5    1A:5    )
+HR        MPRC      CAC   Wed May 22              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 1 Apr: 2 May: 2  
+
+##### CRRC C #####
+SHC       CRRC      SHC   Wed Feb 06              (      :0      :0    )
+CRRC      MAC       CRRC  Wed Feb 20              (    2B:1      :0    )
+CRRC      GLN       CRRC  Wed Feb 27 Consecutive  (  1B2A:6    2B:1    )
+CRRC      HR        CRRC  Wed Mar 13              (      :0      :0    )
+TH-1      CRRC      TH    Wed Apr 03              (   2BA:2      :0    )
+CRRC      TH-2      CRRC  Wed May 08              (      :0      :0    )
+MPRC      CRRC      MPRC  Wed May 15 Consecutive  (    1A:5 1BAc:12 C:1)
+SAC       CRRC      SAC   Wed May 22 Consecutive  (      :0   2Bc:3    )
+Jan: 0 Feb: 3 Mar: 1 Apr: 1 May: 3   Check
+
+##### GLN C #####
+MAC       GLN       MAC   Wed Jan 30              (      :0   2BA:2 C:1)
+GLN       TH-1      GLN   Wed Feb 13              (      :0      :0    )
+CRRC      GLN       CRRC  Wed Feb 27              (  1B2A:6    2B:1    )
+TH-2      GLN       TH    Wed Mar 20              (      :0      :0    )
+GLN       MPRC      GLN   Wed Apr 03              (    2B:1    2A:1    )
+HR        GLN       CAC   Wed Apr 24              (      :0      :0    )
+GLN       SAC       GLN   Wed May 08              (   2BA:2  2BAc:4    )
+GLN       SHC       GLN   Wed May 22              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 1 Apr: 2 May: 2  
+
+##### SAC C #####
+SAC       SHC       SAC   Wed Jan 30              (   2BA:2  1A2B:6    )
+SAC       HR        SAC   Wed Feb 13              (      :0      :0    )
+MPRC      SAC       MPRC  Wed Mar 06              (      :0      :0    )
+SAC       TH-1      SAC   Wed Mar 20              (    2B:1      :0    )
+TH-2      SAC       TH    Wed Apr 03              (  1A2B:6   2Bc:3 C:1)
+MAC       SAC       MAC   Wed Apr 24              (      :0      :0    )
+GLN       SAC       GLN   Wed May 08              (   2BA:2  2BAc:4    )
+SAC       CRRC      SAC   Wed May 22              (      :0   2Bc:3    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 2 May: 2  
+
+##### MAC C #####
+MAC       GLN       MAC   Wed Jan 30              (      :0   2BA:2 C:1)
+CRRC      MAC       CRRC  Wed Feb 20              (    2B:1      :0    )
+MAC       TH-2      MAC   Wed Feb 27 Consecutive  (  1B2A:6      :0 C:1)
+SHC       MAC       SHC   Wed Mar 13              (      :0      :0    )
+HR        MAC       CAC   Wed Apr 03              (      :0      :0    )
+MAC       SAC       MAC   Wed Apr 24              (      :0      :0    )
+MAC       MPRC      MAC   Wed May 01 Consecutive  (  1B2A:6   2BA:2 C:1)
+TH-1      MAC       TH    Wed May 15              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 1 Apr: 2 May: 2  
+
+##### TH-1 C #####
+TH-1      HR        TH    Wed Jan 30              (    2A:1   2BA:2 C:1)
+GLN       TH-1      GLN   Wed Feb 13              (      :0      :0    )
+SAC       TH-1      SAC   Wed Mar 20              (    2B:1      :0    )
+TH-1      CRRC      TH    Wed Apr 03              (   2BA:2      :0    )
+MPRC      TH-1      MPRC  Wed Apr 17              (      :0      :0    )
+SHC       TH-1      SHC   Wed May 01              (      :0   2BA:2    )
+TH-1      MAC       TH    Wed May 15              (      :0      :0    )
+TH-1      TH-2      TH    Wed May 22 Consecutive  (    1B:5    2B:1 C:1)
+Jan: 1 Feb: 1 Mar: 1 Apr: 2 May: 3   Check
+
+##### TH-2 C #####
+TH-2      MPRC      TH    Wed Feb 06              (      :0      :0 C:1)
+MAC       TH-2      MAC   Wed Feb 27              (  1B2A:6      :0 C:1)
+TH-2      GLN       TH    Wed Mar 20              (      :0      :0    )
+TH-2      SAC       TH    Wed Apr 03              (  1A2B:6   2Bc:3 C:1)
+TH-2      SHC       TH    Wed Apr 10 Consecutive  (      :0      :0    )
+HR        TH-2      CAC   Wed May 01              (    1B:5    1A:5    )
+CRRC      TH-2      CRRC  Wed May 08 Consecutive  (      :0      :0    )
+TH-1      TH-2      TH    Wed May 22              (    1B:5    2B:1 C:1)
+Jan: 0 Feb: 2 Mar: 1 Apr: 2 May: 3   Check
+
+##### SHC C #####
+SAC       SHC       SAC   Wed Jan 30              (   2BA:2  1A2B:6    )
+SHC       CRRC      SHC   Wed Feb 06 Consecutive  (      :0      :0    )
+SHC       HR        SHC   Wed Feb 27              (    2A:1   2BA:2    )
+SHC       MAC       SHC   Wed Mar 13              (      :0      :0    )
+MPRC      SHC       MPRC  Wed Mar 20 Consecutive  (   2BA:2    1B:5    )
+TH-2      SHC       TH    Wed Apr 10              (      :0      :0    )
+SHC       TH-1      SHC   Wed May 01              (      :0   2BA:2    )
+GLN       SHC       GLN   Wed May 22              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 2 Apr: 1 May: 2  
+
+##### MPRC D #####
+CGM       MPRC      CGM   Wed Jan 30              (      :0      :0    )
+MPRC      PTC       MPRC  Wed Feb 27              (      :0  1A2B:6 C:1)
+PAC       MPRC      PAC   Wed Mar 20              (    1B:5    2A:1    )
+MPRC      CAC       MPRC  Wed Apr 03              (      :0    2A:1 C:1)
+WH        MPRC      WH    Wed Apr 17              (   2BA:2 1A2BA:7 C:1)
+MPRC      LO        MPRC  Wed Apr 24 Consecutive  (      :0      :0    )
+VTC       MPRC      VTC   Wed May 01 Consecutive  (    2A:1  1B2A:6    )
+MPRC      TH        MPRC  Wed May 15              (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 1 Apr: 3 May: 2   Check
+
+##### WH D #####
+WH        VTC       WH    Wed Feb 06              (    2A:1    2A:1    )
+TH        WH        TH    Wed Feb 20              (      :0      :0    )
+CAC       WH        CAC   Wed Feb 27 Consecutive  (   2Ac:3  1B2A:6    )
+WH        PAC       WH    Wed Mar 13              (      :0      :0    )
+LO        WH        LO    Wed Apr 03              (      :0      :0    )
+WH        MPRC      WH    Wed Apr 17              (   2BA:2 1A2BA:7 C:1)
+PTC       WH        PTC   Wed May 01              (      :0      :0    )
+WH        CGM       WH    Wed May 15              (    2B:1    1A:5 C:1)
+Jan: 0 Feb: 3 Mar: 1 Apr: 2 May: 2   Check
+
+##### PTC D #####
+PTC       PAC       PTC   Wed Feb 13              (      :0      :0    )
+MPRC      PTC       MPRC  Wed Feb 27              (      :0  1A2B:6 C:1)
+LO        PTC       LO    Wed Mar 06 Consecutive  (      :0     c:2    )
+TH        PTC       TH    Wed Mar 20              (    1B:5    2B:1 C:1)
+PTC       CGM       PTC   Wed Apr 10              (     c:2      :0    )
+CAC       PTC       CAC   Wed Apr 17 Consecutive  (    1A:5 1B2Ac:8    )
+PTC       WH        PTC   Wed May 01              (      :0      :0    )
+PTC       VTC       PTC   Wed May 15              (    2B:1      :0    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 2 May: 2  
+
+##### VTC D #####
+VTC       TH        VTC   Wed Jan 30              (   1Ac:7  1A2B:6    )
+WH        VTC       WH    Wed Feb 06 Consecutive  (    2A:1    2A:1    )
+CGM       VTC       CGM   Wed Feb 20              (     c:2      :0    )
+PAC       VTC       PAC   Wed Feb 27 Consecutive  (   2BA:2  1B2A:6    )
+VTC       CAC       VTC   Wed Mar 13              (      :0     c:2    )
+VTC       LO        VTC   Wed Apr 10              (      :0 1B2Ac:8    )
+VTC       MPRC      VTC   Wed May 01              (    2A:1  1B2A:6    )
+PTC       VTC       PTC   Wed May 15              (    2B:1      :0    )
+Jan: 1 Feb: 3 Mar: 1 Apr: 1 May: 2   Check
+
+##### CAC D #####
+PAC       CAC       PAC   Wed Jan 30              (    2A:1    2B:1    )
+CAC       WH        CAC   Wed Feb 27              (   2Ac:3  1B2A:6    )
+VTC       CAC       VTC   Wed Mar 13              (      :0     c:2    )
+MPRC      CAC       MPRC  Wed Apr 03              (      :0    2A:1 C:1)
+CAC       PTC       CAC   Wed Apr 17              (    1A:5 1B2Ac:8    )
+CGM       CAC       CGM   Wed Apr 24 Consecutive  (    2B:1      :0    )
+CAC       TH        CAC   Wed May 08              ( 1A2Bc:8    1A:5    )
+CAC       LO        CAC   Wed May 15 Consecutive  (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 1 Apr: 3 May: 2   Check
+
+##### CGM D #####
+CGM       MPRC      CGM   Wed Jan 30              (      :0      :0    )
+CGM       VTC       CGM   Wed Feb 20              (     c:2      :0    )
+TH        CGM       TH    Wed Mar 13              (      :0      :0    )
+PTC       CGM       PTC   Wed Apr 10              (     c:2      :0    )
+LO        CGM       LO    Wed Apr 17 Consecutive  (1BA2BA:12  1BA:10    )
+CGM       CAC       CGM   Wed Apr 24 Consecutive  (    2B:1      :0    )
+WH        CGM       WH    Wed May 15              (    2B:1    1A:5 C:1)
+CGM       PAC       CGM   Wed May 22 Consecutive  (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 1 Apr: 3 May: 2   Check
+
+##### LO D #####
+TH        LO        TH    Wed Feb 06              (    2A:1      :0    )
+LO        PTC       LO    Wed Mar 06              (      :0     c:2    )
+LO        WH        LO    Wed Apr 03              (      :0      :0    )
+VTC       LO        VTC   Wed Apr 10 Consecutive  (      :0 1B2Ac:8    )
+LO        CGM       LO    Wed Apr 17 Consecutive  (1BA2BA:12  1BA:10    )
+MPRC      LO        MPRC  Wed Apr 24 Consecutive  (      :0      :0    )
+LO        PAC       LO    Wed May 01 Consecutive  ( 1B2Ac:8      :0    )
+CAC       LO        CAC   Wed May 15              (      :0      :0    )
+Jan: 0 Feb: 1 Mar: 1 Apr: 4 May: 2   Check
+
+##### PAC D #####
+PAC       CAC       PAC   Wed Jan 30              (    2A:1    2B:1    )
+PTC       PAC       PTC   Wed Feb 13              (      :0      :0    )
+PAC       VTC       PAC   Wed Feb 27              (   2BA:2  1B2A:6    )
+WH        PAC       WH    Wed Mar 13              (      :0      :0    )
+PAC       MPRC      PAC   Wed Mar 20 Consecutive  (    1B:5    2A:1    )
+PAC       TH        PAC   Wed Apr 10              (      :0      :0    )
+LO        PAC       LO    Wed May 01              ( 1B2Ac:8      :0    )
+CGM       PAC       CGM   Wed May 22              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 2 Apr: 1 May: 2  
+
+##### TH D #####
+VTC       TH        VTC   Wed Jan 30              (   1Ac:7  1A2B:6    )
+TH        LO        TH    Wed Feb 06 Consecutive  (    2A:1      :0    )
+TH        WH        TH    Wed Feb 20              (      :0      :0    )
+TH        CGM       TH    Wed Mar 13              (      :0      :0    )
+TH        PTC       TH    Wed Mar 20 Consecutive  (    1B:5    2B:1 C:1)
+PAC       TH        PAC   Wed Apr 10              (      :0      :0    )
+CAC       TH        CAC   Wed May 08              ( 1A2Bc:8    1A:5    )
+MPRC      TH        MPRC  Wed May 15 Consecutive  (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 2 Apr: 1 May: 2  
+
+##### MPRC E #####
+MPRC      MAC-Black MPRC  Wed Jan 30              (   2BA:2  1A2B:6 C:1)
+MAC-Red   MPRC      MAC   Wed Feb 13              (      :0      :0    )
+MPRC      TD        MPRC  Wed Feb 27              (    2B:1      :0    )
+WH        MPRC      WH    Wed Mar 20              (   2BA:2    2A:1 C:1)
+SAC       MPRC      SAC   Wed Apr 03              (     c:2      :0    )
+MPRC      LO        MPRC  Wed Apr 24              (    2A:1  1A2B:6 C:1)
+CRRC      MPRC      CRRC  Wed May 01 Consecutive  (   2Bc:3  1BA:10    )
+MPRC      LONG      MPRC  Wed May 08 Consecutive  (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 1 Apr: 2 May: 2  
+
+##### WH E #####
+TD        WH        SJ    Wed Feb 06              (      :0      :0    )
+LO        WH        LO    Wed Feb 20              (      :0   2BA:2    )
+LONG      WH        CGM   Wed Mar 06              (      :0      :0    )
+WH        MPRC      WH    Wed Mar 20              (   2BA:2    2A:1 C:1)
+WH        CRRC      WH    Wed Apr 03              (    2A:1   2BA:2    )
+WH        MAC-Red   WH    Wed Apr 17              (      :0    2B:1    )
+WH        SAC       WH    Wed May 08              (    2A:1  1BA:10 C:1)
+MAC-Black WH        MAC   Wed May 22              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 2 May: 2  
+
+##### LONG E #####
+LONG      CRRC      CGM   Wed Feb 13              (      :0      :0    )
+LONG      SAC       CGM   Wed Feb 20 Consecutive  (  1B2A:6   2BA:2 C:1)
+LONG      WH        CGM   Wed Mar 06              (      :0      :0    )
+MAC-Black LONG      MAC   Wed Mar 20              (    2B:1    2B:1 C:1)
+LO        LONG      LO    Wed Apr 10              (      :0      :0    )
+LONG      MAC-Red   CGM   Wed May 01              (    1A:5   2BA:2    )
+MPRC      LONG      MPRC  Wed May 08 Consecutive  (      :0      :0    )
+TD        LONG      SJ    Wed May 22              (      :0    2B:1    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 1 May: 3   Check
+
+##### CRRC E #####
+CRRC      TD        CRRC  Wed Jan 30              (   2BA:2  1A2B:6    )
+LONG      CRRC      CGM   Wed Feb 13              (      :0      :0    )
+SAC       CRRC      SAC   Wed Mar 06              (     c:2      :0    )
+MAC-Red   CRRC      MAC   Wed Mar 20              (   2BA:2    2B:1    )
+WH        CRRC      WH    Wed Apr 03              (    2A:1   2BA:2    )
+CRRC      MAC-Black CRRC  Wed Apr 17              (      :0      :0    )
+CRRC      MPRC      CRRC  Wed May 01              (   2Bc:3  1BA:10    )
+CRRC      LO        CRRC  Wed May 22              (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 2 May: 2  
+
+##### LO E #####
+MAC-Red   LO        MAC   Wed Jan 30              (   2BA:2      :0    )
+LO        WH        LO    Wed Feb 20              (      :0   2BA:2    )
+LO        TD        LO    Wed Mar 13              (      :0    2B:1    )
+LO        LONG      LO    Wed Apr 10              (      :0      :0    )
+MPRC      LO        MPRC  Wed Apr 24              (    2A:1  1A2B:6 C:1)
+SAC       LO        SAC   Wed May 01 Consecutive  (      :0      :0    )
+CRRC      LO        CRRC  Wed May 22              (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 1 Apr: 2 May: 2  
+
+##### SAC E #####
+MAC-Black SAC       MAC   Wed Feb 06              (      :0      :0 C:1)
+LONG      SAC       CGM   Wed Feb 20              (  1B2A:6   2BA:2 C:1)
+SAC       CRRC      SAC   Wed Mar 06              (     c:2      :0    )
+SAC       MPRC      SAC   Wed Apr 03              (     c:2      :0    )
+TD        SAC       SJ    Wed Apr 17              (    2B:1  2BAc:4    )
+SAC       LO        SAC   Wed May 01              (      :0      :0    )
+WH        SAC       WH    Wed May 08 Consecutive  (    2A:1  1BA:10 C:1)
+SAC       MAC-Red   SAC   Wed May 15 Consecutive  (   2Bc:3      :0    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 2 May: 3   Check
+
+##### MAC-Black E #####
+MPRC      MAC-Black MPRC  Wed Jan 30              (   2BA:2  1A2B:6 C:1)
+MAC-Black SAC       MAC   Wed Feb 06 Consecutive  (      :0      :0 C:1)
+MAC-Black MAC-Red   MAC   Wed Mar 06              (      :0      :0    )
+MAC-Black LONG      MAC   Wed Mar 20              (    2B:1    2B:1 C:1)
+CRRC      MAC-Black CRRC  Wed Apr 17              (      :0      :0    )
+TD        MAC-Black SJ    Wed May 01              (    2B:1    2B:1    )
+MAC-Black WH        MAC   Wed May 22              (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 1 May: 2  
+
+##### MAC-Red E #####
+MAC-Red   LO        MAC   Wed Jan 30              (   2BA:2      :0    )
+MAC-Red   MPRC      MAC   Wed Feb 13              (      :0      :0    )
+MAC-Black MAC-Red   MAC   Wed Mar 06              (      :0      :0    )
+MAC-Red   CRRC      MAC   Wed Mar 20              (   2BA:2    2B:1    )
+MAC-Red   TD        MAC   Wed Apr 03              (      :0      :0    )
+WH        MAC-Red   WH    Wed Apr 17              (      :0    2B:1    )
+LONG      MAC-Red   CGM   Wed May 01              (    1A:5   2BA:2    )
+SAC       MAC-Red   SAC   Wed May 15              (   2Bc:3      :0    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 2 May: 2  
+
+##### TD E #####
+CRRC      TD        CRRC  Wed Jan 30              (   2BA:2  1A2B:6    )
+TD        WH        SJ    Wed Feb 06 Consecutive  (      :0      :0    )
+MPRC      TD        MPRC  Wed Feb 27              (    2B:1      :0    )
+LO        TD        LO    Wed Mar 13              (      :0    2B:1    )
+MAC-Red   TD        MAC   Wed Apr 03              (      :0      :0    )
+TD        SAC       SJ    Wed Apr 17              (    2B:1  2BAc:4    )
+TD        MAC-Black SJ    Wed May 01              (    2B:1    2B:1    )
+TD        LONG      SJ    Wed May 22              (      :0    2B:1    )
+Jan: 1 Feb: 2 Mar: 1 Apr: 2 May: 2  
+
+##### MPRC F #####
+MPRC      PTC       MPRC  Wed Feb 13              (      :0      :0    )
+MPRC      IRV       MPRC  Wed Mar 06              (    2A:1      :0 C:1)
+VTC       MPRC      VTC   Wed Mar 20              (      :0      :0    )
+MPRC      LO-2      MPRC  Wed Apr 10              (    2A:1      :0 C:1)
+WH        MPRC      WH    Wed Apr 24              (      :0      :0    )
+TH        MPRC      TH    Wed May 22              (      :0      :0    )
+Jan: 0 Feb: 1 Mar: 2 Apr: 2 May: 1  
+
+##### WH F #####
+WH        PTC       WH    Wed Jan 30              (  1A2B:6   2BA:2    )
+LO-1      WH        LO    Wed Feb 06 Consecutive  (      :0      :0    )
+TH        WH        TH    Wed Mar 06              (    1B:5      :0    )
+WH        IRV       WH    Wed Apr 03              (      :0    2A:1 C:1)
+WH        MPRC      WH    Wed Apr 24              (      :0      :0    )
+VTC       WH        VTC   Wed May 08              (  2BAc:4  1A2B:6    )
+WH        LO-2      WH    Wed May 15 Consecutive  (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 1 Apr: 2 May: 2  
+
+##### PTC F #####
+WH        PTC       WH    Wed Jan 30              (  1A2B:6   2BA:2    )
+MPRC      PTC       MPRC  Wed Feb 13              (      :0      :0    )
+PTC       VTC       PTC   Wed Feb 27              (    2B:1  1A2B:6    )
+LO-2      PTC       LO    Wed Mar 20              (      :0      :0    )
+PTC       TH        PTC   Wed Apr 03              (  2BAc:4      :0    )
+IRV       PTC       IRV   Wed Apr 17              (      :0      :0    )
+PTC       LO-1      PTC   Wed May 22              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 1 Apr: 2 May: 1  
+
+##### VTC F #####
+LO-2      VTC       LO    Wed Feb 13              (      :0      :0    )
+PTC       VTC       PTC   Wed Feb 27              (    2B:1  1A2B:6    )
+VTC       LO-1      VTC   Wed Mar 06 Consecutive  (    2A:1      :0    )
+VTC       MPRC      VTC   Wed Mar 20              (      :0      :0    )
+VTC       TH        VTC   Wed Apr 24              (      :0      :0    )
+VTC       WH        VTC   Wed May 08              (  2BAc:4  1A2B:6    )
+IRV       VTC       IRV   Wed May 22              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 1 May: 2  
+
+##### IRV F #####
+IRV       LO-2      IRV   Wed Jan 30              (    2B:1   2BA:2    )
+TH        IRV       TH    Wed Feb 13              (    2A:1   2Bc:3 C:1)
+MPRC      IRV       MPRC  Wed Mar 06              (    2A:1      :0 C:1)
+WH        IRV       WH    Wed Apr 03              (      :0    2A:1 C:1)
+IRV       PTC       IRV   Wed Apr 17              (      :0      :0    )
+LO-1      IRV       LO    Wed May 15              (    1A:5    1A:5    )
+IRV       VTC       IRV   Wed May 22 Consecutive  (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 1 Apr: 2 May: 2  
+
+##### LO-1 F #####
+LO-1      WH        LO    Wed Feb 06              (      :0      :0    )
+VTC       LO-1      VTC   Wed Mar 06              (    2A:1      :0    )
+LO-1      LO-2      LO    Tue Apr 02              (      :0      :0    )
+TH        LO-1      TH    Wed May 01              (    1B:5    2A:1    )
+LO-1      IRV       LO    Wed May 15              (    1A:5    1A:5    )
+PTC       LO-1      PTC   Wed May 22 Consecutive  (      :0      :0    )
+Jan: 0 Feb: 1 Mar: 1 Apr: 1 May: 3   Check
+
+##### LO-2 F #####
+IRV       LO-2      IRV   Wed Jan 30              (    2B:1   2BA:2    )
+LO-2      VTC       LO    Wed Feb 13              (      :0      :0    )
+LO-2      TH        LO    Wed Feb 27              (    2B:1      :0    )
+LO-2      PTC       LO    Wed Mar 20              (      :0      :0    )
+LO-1      LO-2      LO    Tue Apr 02              (      :0      :0    )
+MPRC      LO-2      MPRC  Wed Apr 10 Consecutive  (    2A:1      :0 C:1)
+WH        LO-2      WH    Wed May 15              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 1 Apr: 2 May: 1  
+
+##### TH F #####
+TH        IRV       TH    Wed Feb 13              (    2A:1   2Bc:3 C:1)
+LO-2      TH        LO    Wed Feb 27              (    2B:1      :0    )
+TH        WH        TH    Wed Mar 06 Consecutive  (    1B:5      :0    )
+PTC       TH        PTC   Wed Apr 03              (  2BAc:4      :0    )
+VTC       TH        VTC   Wed Apr 24              (      :0      :0    )
+TH        LO-1      TH    Wed May 01 Consecutive  (    1B:5    2A:1    )
+TH        MPRC      TH    Wed May 22              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 2 May: 2  
+
+##### MPRC G #####
+MPRC      TH        MPRC  Tue Jan 29              (      :0    2A:1    )
+MAC       MPRC      MAC   Tue Feb 19              (      :0      :0    )
+WH        MPRC      WH    Tue Mar 05              (    2A:1    2B:1    )
+MPRC      ERC       MPRC  Tue Mar 12 Consecutive  (    1B:5      :0 C:1)
+MPRC      SAC       MPRC  Tue Apr 09              (    2A:1      :0 C:1)
+LO        MPRC      LO    Tue Apr 23              (      :0      :0    )
+CAC       MPRC      CAC   Tue May 07              (      :0    2B:1    )
+MPRC      PTC       MPRC  Tue May 21              (    2B:1     c:2 C:1)
+Jan: 1 Feb: 1 Mar: 2 Apr: 2 May: 2  
+
+##### WH G #####
+SAC       WH        SAC   Tue Feb 05              (      :0      :0    )
+WH        LO        WH    Tue Feb 19              (   2BA:2    2A:1    )
+WH        MPRC      WH    Tue Mar 05              (    2A:1    2B:1    )
+PTC       WH        PTC   Tue Mar 19              (    2A:1      :0    )
+TH        WH        TH    Tue Apr 09              (      :0      :0    )
+WH        CAC       WH    Tue Apr 23              (  1A2B:6  2BAc:4    )
+ERC       WH        CRRC  Tue Apr 30 Consecutive  (    2A:1      :0    )
+WH        MAC       WH    Tue May 14              (    2B:1    2B:1    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 3 May: 1   Check
+
+##### PTC G #####
+PTC       CAC       PTC   Tue Jan 29              (   2BA:2    2B:1    )
+TH        PTC       TH    Tue Feb 12              (      :0      :0    )
+ERC       PTC       CRRC  Tue Feb 19 Consecutive  (    2A:1  1B2A:6    )
+PTC       LO        PTC   Tue Mar 05              (   2Ac:3      :0    )
+PTC       WH        PTC   Tue Mar 19              (    2A:1      :0    )
+PTC       MAC       PTC   Tue Apr 02              (      :0      :0    )
+SAC       PTC       SAC   Tue Apr 23              ( 1A2Bc:8     c:2    )
+MPRC      PTC       MPRC  Tue May 21              (    2B:1     c:2 C:1)
+Jan: 1 Feb: 2 Mar: 2 Apr: 2 May: 1  
+
+##### CAC G #####
+PTC       CAC       PTC   Tue Jan 29              (   2BA:2    2B:1    )
+CAC       SAC       CAC   Tue Feb 19              (      :0    2B:1    )
+CAC       TH        CAC   Tue Mar 05              ( 1A2BA:7    2A:1    )
+MAC       CAC       MAC   Tue Mar 12 Consecutive  (      :0      :0    )
+LO        CAC       LO    Tue Mar 19 Consecutive  (    2B:1   1Bc:7    )
+CAC       ERC       CAC   Tue Apr 09              (      :0      :0    )
+WH        CAC       WH    Tue Apr 23              (  1A2B:6  2BAc:4    )
+CAC       MPRC      CAC   Tue May 07              (      :0    2B:1    )
+Jan: 1 Feb: 1 Mar: 3 Apr: 2 May: 1   Check
+
+##### ERC G #####
+LO        ERC       LO    Tue Jan 29              (    2B:1    2B:1    )
+ERC       PTC       CRRC  Tue Feb 19              (    2A:1  1B2A:6    )
+ERC       SAC       CRRC  Tue Mar 05              (    1A:5   2BA:2    )
+MPRC      ERC       MPRC  Tue Mar 12 Consecutive  (    1B:5      :0 C:1)
+MAC       ERC       MAC   Tue Mar 19 Consecutive  (  1B2A:6 1B2Bc:8    )
+CAC       ERC       CAC   Tue Apr 09              (      :0      :0    )
+ERC       WH        CRRC  Tue Apr 30              (    2A:1      :0    )
+ERC       TH        CRRC  Tue May 14              (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 3 Apr: 2 May: 1   Check
+
+##### LO G #####
+LO        ERC       LO    Tue Jan 29              (    2B:1    2B:1    )
+WH        LO        WH    Tue Feb 19              (   2BA:2    2A:1    )
+PTC       LO        PTC   Tue Mar 05              (   2Ac:3      :0    )
+LO        CAC       LO    Tue Mar 19              (    2B:1   1Bc:7    )
+LO        MAC       LO    Tue Apr 09              (    2A:1  1B2A:6    )
+LO        MPRC      LO    Tue Apr 23              (      :0      :0    )
+SAC       LO        SAC   Tue May 14              (      :0      :0    )
+TH        LO        TH    Tue May 21 Consecutive  (    1B:5    1B:5    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 2 May: 2  
+
+##### SAC G #####
+SAC       WH        SAC   Tue Feb 05              (      :0      :0    )
+CAC       SAC       CAC   Tue Feb 19              (      :0    2B:1    )
+ERC       SAC       CRRC  Tue Mar 05              (    1A:5   2BA:2    )
+TH        SAC       TH    Tue Mar 19              (      :0      :0    )
+MPRC      SAC       MPRC  Tue Apr 09              (    2A:1      :0 C:1)
+SAC       PTC       SAC   Tue Apr 23              ( 1A2Bc:8     c:2    )
+SAC       MAC       SAC   Tue Apr 30 Consecutive  (    2A:1      :0    )
+SAC       LO        SAC   Tue May 14              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 3 May: 1   Check
+
+##### MAC G #####
+MAC       MPRC      MAC   Tue Feb 19              (      :0      :0    )
+MAC       CAC       MAC   Tue Mar 12              (      :0      :0    )
+MAC       ERC       MAC   Tue Mar 19 Consecutive  (  1B2A:6 1B2Bc:8    )
+PTC       MAC       PTC   Tue Apr 02              (      :0      :0    )
+LO        MAC       LO    Tue Apr 09 Consecutive  (    2A:1  1B2A:6    )
+MAC       TH        MAC   Tue Apr 23              (    1A:5    2B:1    )
+SAC       MAC       SAC   Tue Apr 30 Consecutive  (    2A:1      :0    )
+WH        MAC       WH    Tue May 14              (    2B:1    2B:1    )
+Jan: 0 Feb: 1 Mar: 2 Apr: 4 May: 1   Check
+
+##### TH G #####
+MPRC      TH        MPRC  Tue Jan 29              (      :0    2A:1    )
+TH        PTC       TH    Tue Feb 12              (      :0      :0    )
+CAC       TH        CAC   Tue Mar 05              ( 1A2BA:7    2A:1    )
+TH        SAC       TH    Tue Mar 19              (      :0      :0    )
+TH        WH        TH    Tue Apr 09              (      :0      :0    )
+MAC       TH        MAC   Tue Apr 23              (    1A:5    2B:1    )
+ERC       TH        CRRC  Tue May 14              (      :0      :0    )
+TH        LO        TH    Tue May 21 Consecutive  (    1B:5    1B:5    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 2 May: 2  
+
+##### MPRC H #####
+MPRC      VTC       MPRC  Tue Feb 05              (      :0      :0    )
+IRV       MPRC      IRV   Tue Feb 26              (    1B:5    1A:5    )
+MPRC      SHC       MPRC  Tue Mar 05 Consecutive  (    2A:1    2B:1    )
+MPRC      SAC       MPRC  Tue Mar 19              (      :0      :0    )
+WH        MPRC      WH    Tue Apr 09              (      :0      :0    )
+TH        MPRC      TH    Tue Apr 16 Consecutive  (    2A:1    1B:5    )
+MPRC      PAC       MPRC  Tue Apr 30              (   2BA:2    1A:5 C:1)
+MAC       MPRC      MAC   Tue May 14              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 3 May: 1   Check
+
+##### WH H #####
+SHC       WH        SHC   Tue Jan 29              (      :0   2BA:2    )
+WH        MAC       WH    Tue Feb 12              (    2A:1    2B:1    )
+VTC       WH        VTC   Tue Feb 19 Consecutive  (   2BA:2  1BA:10    )
+SAC       WH        SAC   Tue Feb 26 Consecutive  (      :0      :0    )
+PAC       WH        PAC   Tue Mar 19              (  2BAc:4      :0    )
+WH        MPRC      WH    Tue Apr 09              (      :0      :0    )
+WH        IRV       WH    Tue Apr 30              (      :0      :0    )
+WH        TH        WH    Tue May 21              (      :0      :0    )
+Jan: 1 Feb: 3 Mar: 1 Apr: 2 May: 1   Check
+
+##### VTC H #####
+VTC       IRV       VTC   Tue Jan 29              (    1A:5    2B:1    )
+MPRC      VTC       MPRC  Tue Feb 05 Consecutive  (      :0      :0    )
+VTC       WH        VTC   Tue Feb 19              (   2BA:2  1BA:10    )
+PAC       VTC       PAC   Tue Mar 05              (      :0      :0    )
+VTC       TH        VTC   Tue Mar 19              (   2Bc:3      :0    )
+SAC       VTC       SAC   Tue Apr 09              (   1Ac:7      :0    )
+VTC       MAC       VTC   Tue Apr 30              (      :0    2A:1    )
+SHC       VTC       SHC   Tue May 21              (    2B:1     c:2    )
+Jan: 1 Feb: 2 Mar: 2 Apr: 2 May: 1  
+
+##### IRV H #####
+VTC       IRV       VTC   Tue Jan 29              (    1A:5    2B:1    )
+IRV       PAC       IRV   Tue Feb 19              (      :0    2A:1    )
+IRV       MPRC      IRV   Tue Feb 26 Consecutive  (    1B:5    1A:5    )
+TH        IRV       TH    Tue Mar 12              (    1A:5    2B:1 C:1)
+IRV       SHC       IRV   Tue Apr 02              (    1A:5   2BA:2    )
+MAC       IRV       MAC   Tue Apr 09 Consecutive  (      :0      :0    )
+WH        IRV       WH    Tue Apr 30              (      :0      :0    )
+IRV       SAC       IRV   Tue May 21              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 1 Apr: 3 May: 1   Check
+
+##### SAC H #####
+SAC       PAC       SAC   Tue Jan 29              (     c:2    2B:1    )
+SAC       WH        SAC   Tue Feb 26              (      :0      :0    )
+MAC       SAC       MAC   Tue Mar 05 Consecutive  (    2A:1 1B2Ac:8    )
+MPRC      SAC       MPRC  Tue Mar 19              (      :0      :0    )
+SAC       VTC       SAC   Tue Apr 09              (   1Ac:7      :0    )
+SAC       SHC       SAC   Tue Apr 16 Consecutive  (      :0      :0    )
+TH        SAC       TH    Tue Apr 30              (      :0    2B:1    )
+IRV       SAC       IRV   Tue May 21              (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 3 May: 1   Check
+
+##### MAC H #####
+MAC       TH        MAC   Tue Jan 29              (    2B:1    2B:1    )
+WH        MAC       WH    Tue Feb 12              (    2A:1    2B:1    )
+MAC       SAC       MAC   Tue Mar 05              (    2A:1 1B2Ac:8    )
+SHC       MAC       SHC   Tue Mar 19              (    2B:1      :0    )
+MAC       IRV       MAC   Tue Apr 09              (      :0      :0    )
+PAC       MAC       PAC   Tue Apr 16 Consecutive  (  2BAc:4  1B2A:6    )
+VTC       MAC       VTC   Tue Apr 30              (      :0    2A:1    )
+MAC       MPRC      MAC   Tue May 14              (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 3 May: 1   Check
+
+##### PAC H #####
+SAC       PAC       SAC   Tue Jan 29              (     c:2    2B:1    )
+IRV       PAC       IRV   Tue Feb 19              (      :0    2A:1    )
+PAC       VTC       PAC   Tue Mar 05              (      :0      :0    )
+PAC       WH        PAC   Tue Mar 19              (  2BAc:4      :0    )
+PAC       TH        PAC   Tue Apr 02              (     c:2   2BA:2    )
+PAC       MAC       PAC   Tue Apr 16              (  2BAc:4  1B2A:6    )
+MPRC      PAC       MPRC  Tue Apr 30              (   2BA:2    1A:5 C:1)
+SHC       PAC       SHC   Tue May 07 Consecutive  (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 3 May: 1   Check
+
+##### TH H #####
+MAC       TH        MAC   Tue Jan 29              (    2B:1    2B:1    )
+TH        SHC       TH    Tue Feb 19              (      :0      :0    )
+TH        IRV       TH    Tue Mar 12              (    1A:5    2B:1 C:1)
+VTC       TH        VTC   Tue Mar 19 Consecutive  (   2Bc:3      :0    )
+PAC       TH        PAC   Tue Apr 02              (     c:2   2BA:2    )
+TH        MPRC      TH    Tue Apr 16              (    2A:1    1B:5    )
+TH        SAC       TH    Tue Apr 30              (      :0    2B:1    )
+WH        TH        WH    Tue May 21              (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 3 May: 1   Check
+
+##### SHC H #####
+SHC       WH        SHC   Tue Jan 29              (      :0   2BA:2    )
+TH        SHC       TH    Tue Feb 19              (      :0      :0    )
+MPRC      SHC       MPRC  Tue Mar 05              (    2A:1    2B:1    )
+SHC       MAC       SHC   Tue Mar 19              (    2B:1      :0    )
+IRV       SHC       IRV   Tue Apr 02              (    1A:5   2BA:2    )
+SAC       SHC       SAC   Tue Apr 16              (      :0      :0    )
+SHC       PAC       SHC   Tue May 07              (      :0      :0    )
+SHC       VTC       SHC   Tue May 21              (    2B:1     c:2    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 2 May: 2  
+
+##### MPRC I #####
+HR        MPRC      GLN   Tue Jan 29              (   2BA:2    2A:1    )
+CAC       MPRC      CAC   Tue Feb 12              (      :0      :0    )
+MPRC      TH        MPRC  Tue Mar 12              (      :0      :0    )
+MPRC      CGM       MPRC  Tue Mar 19 Consecutive  (  1B2A:6   1Bc:7 C:1)
+MPRC      ERC       MPRC  Tue Apr 02              (    2A:1   2BA:2    )
+MPRC      VTC       MPRC  Tue Apr 16              (      :0      :0    )
+PTC       MPRC      PTC   Tue Apr 30              (      :0    2B:1    )
+CRRC      MPRC      CRRC  Tue May 07 Consecutive  (   2Ac:3    1B:5    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 3 May: 1   Check
+
+##### PTC I #####
+TH        PTC       TH    Tue Jan 29              (    2A:1   2Bc:3    )
+PTC       HR        PTC   Tue Feb 26              (      :0      :0    )
+PTC       CAC       PTC   Tue Mar 12              (    2B:1  1A2B:6    )
+PTC       CRRC      PTC   Tue Apr 09              (      :0    1B:5    )
+ERC       PTC       CRRC  Tue Apr 23              (    1B:5  1A2B:6    )
+PTC       MPRC      PTC   Tue Apr 30 Consecutive  (      :0    2B:1    )
+CGM       PTC       CGM   Tue May 07 Consecutive  (  1B2A:61B2BAc:9    )
+VTC       PTC       VTC   Tue May 21              (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 1 Apr: 3 May: 2   Check
+
+##### VTC I #####
+CGM       VTC       CGM   Tue Jan 29              (   2BA:2   2Ac:3    )
+VTC       CRRC      VTC   Tue Feb 12              (      :0    2A:1    )
+TH        VTC       TH    Tue Feb 26              (   2BA:2  1A2B:6 C:1)
+VTC       HR        VTC   Tue Mar 05 Consecutive  (   2Ac:3  1B2A:6    )
+ERC       VTC       CRRC  Tue Mar 19              (      :0      :0    )
+MPRC      VTC       MPRC  Tue Apr 16              (      :0      :0    )
+VTC       CAC       VTC   Tue May 07              (   2Ac:3   2Ac:3    )
+VTC       PTC       VTC   Tue May 21              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 2 Apr: 1 May: 2  
+
+##### CAC I #####
+CAC       MPRC      CAC   Tue Feb 12              (      :0      :0    )
+CAC       CGM       CAC   Tue Feb 26              (    2B:1  2BAc:4    )
+PTC       CAC       PTC   Tue Mar 12              (    2B:1  1A2B:6    )
+HR        CAC       GLN   Tue Mar 19 Consecutive  (      :0    2A:1    )
+CRRC      CAC       CRRC  Tue Apr 02              (      :0    2A:1    )
+CAC       ERC       CAC   Tue Apr 16              (      :0      :0    )
+VTC       CAC       VTC   Tue May 07              (   2Ac:3   2Ac:3    )
+CAC       TH        CAC   Tue May 21              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 2 May: 2  
+
+##### CGM I #####
+CGM       VTC       CGM   Tue Jan 29              (   2BA:2   2Ac:3    )
+CGM       TH        CGM   Tue Feb 12              (      :0      :0    )
+CAC       CGM       CAC   Tue Feb 26              (    2B:1  2BAc:4    )
+CRRC      CGM       CRRC  Tue Mar 12              (     c:2      :0    )
+MPRC      CGM       MPRC  Tue Mar 19 Consecutive  (  1B2A:6   1Bc:7 C:1)
+HR        CGM       GLN   Tue Apr 30              (      :0      :0    )
+CGM       PTC       CGM   Tue May 07 Consecutive  (  1B2A:61B2BAc:9    )
+CGM       ERC       CGM   Tue May 21              (     c:2      :0    )
+Jan: 1 Feb: 2 Mar: 2 Apr: 1 May: 2  
+
+##### CRRC I #####
+VTC       CRRC      VTC   Tue Feb 12              (      :0    2A:1    )
+ERC       CRRC      CRRC  Tue Feb 26              (    2B:1    2A:1    )
+CRRC      CGM       CRRC  Tue Mar 12              (     c:2      :0    )
+TH        CRRC      TH    Tue Mar 19 Consecutive  (    1B:5 1B2Ac:8 C:1)
+CRRC      CAC       CRRC  Tue Apr 02              (      :0    2A:1    )
+PTC       CRRC      PTC   Tue Apr 09 Consecutive  (      :0    1B:5    )
+CRRC      MPRC      CRRC  Tue May 07              (   2Ac:3    1B:5    )
+CRRC      HR        CRRC  Tue May 21              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 2 May: 2  
+
+##### ERC I #####
+ERC       HR        CRRC  Tue Feb 12              (      :0    2A:1    )
+ERC       CRRC      CRRC  Tue Feb 26              (    2B:1    2A:1    )
+ERC       VTC       CRRC  Tue Mar 19              (      :0      :0    )
+MPRC      ERC       MPRC  Tue Apr 02              (    2A:1   2BA:2    )
+CAC       ERC       CAC   Tue Apr 16              (      :0      :0    )
+ERC       PTC       CRRC  Tue Apr 23 Consecutive  (    1B:5  1A2B:6    )
+TH        ERC       TH    Tue May 14              (    1A:5    1A:5    )
+CGM       ERC       CGM   Tue May 21 Consecutive  (     c:2      :0    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 3 May: 2   Check
+
+##### HR I #####
+HR        MPRC      GLN   Tue Jan 29              (   2BA:2    2A:1    )
+ERC       HR        CRRC  Tue Feb 12              (      :0    2A:1    )
+PTC       HR        PTC   Tue Feb 26              (      :0      :0    )
+VTC       HR        VTC   Tue Mar 05 Consecutive  (   2Ac:3  1B2A:6    )
+HR        CAC       GLN   Tue Mar 19              (      :0    2A:1    )
+HR        TH        GLN   Tue Apr 09              (      :0      :0    )
+HR        CGM       GLN   Tue Apr 30              (      :0      :0    )
+CRRC      HR        CRRC  Tue May 21              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 2 Apr: 2 May: 1  
+
+##### TH I #####
+TH        PTC       TH    Tue Jan 29              (    2A:1   2Bc:3    )
+CGM       TH        CGM   Tue Feb 12              (      :0      :0    )
+TH        VTC       TH    Tue Feb 26              (   2BA:2  1A2B:6 C:1)
+MPRC      TH        MPRC  Tue Mar 12              (      :0      :0    )
+TH        CRRC      TH    Tue Mar 19 Consecutive  (    1B:5 1B2Ac:8 C:1)
+HR        TH        GLN   Tue Apr 09              (      :0      :0    )
+TH        ERC       TH    Tue May 14              (    1A:5    1A:5    )
+CAC       TH        CAC   Tue May 21 Consecutive  (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 2 Apr: 1 May: 2  
+
+##### MPRC J #####
+LO-1      MPRC      LO    Tue Feb 05              (      :0      :0    )
+MAC       MPRC      MAC   Tue Feb 12 Consecutive  (    1A:5  1B2A:6    )
+GLN-1     MPRC      GLN   Tue Feb 26              (      :0      :0    )
+CGM       MPRC      CGM   Tue Mar 19              (      :0      :0 C:1)
+MPRC      LO-2      MPRC  Tue Apr 09              (      :0      :0    )
+MPRC      GLN-2     MPRC  Tue Apr 30              (      :0      :0    )
+MPRC      LONG      MPRC  Tue May 21              (      :0      :0    )
+Jan: 0 Feb: 3 Mar: 1 Apr: 2 May: 1   Check
+
+##### CGM J #####
+CGM       LO-2      CGM   Tue Jan 29              (   1Ac:7    2B:1 C:1)
+GLN-1     CGM       GLN   Tue Feb 05 Consecutive  (      :0     c:2    )
+CGM       LONG      CGM   Tue Feb 26              (      :0      :0    )
+CGM       MPRC      CGM   Tue Mar 19              (      :0      :0 C:1)
+CGM       GLN-2     CGM   Tue Apr 16              (      :0   2BA:2    )
+MAC       CGM       MAC   Tue May 07              (    2B:1   2Ac:3    )
+LO-1      CGM       LO    Tue May 21              (      :0      :0    )
+Jan: 1 Feb: 2 Mar: 1 Apr: 1 May: 2  
+
+##### LONG J #####
+GLN-2     LONG      GLN   Tue Feb 12              (      :0    2A:1    )
+CGM       LONG      CGM   Tue Feb 26              (      :0      :0    )
+LONG      LO-1      CGM   Tue Mar 19              (      :0      :0    )
+LONG      GLN-1     CGM   Tue Apr 09              (   2Ac:3      :0    )
+LONG      MAC       CGM   Tue Apr 23              (      :0      :0    )
+LO-2      LONG      LO    Tue May 14              (    2B:1   1Ac:7    )
+MPRC      LONG      MPRC  Tue May 21 Consecutive  (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 2 May: 2  
+
+##### GLN-1 J #####
+GLN-1     CGM       GLN   Tue Feb 05              (      :0     c:2    )
+GLN-1     MPRC      GLN   Tue Feb 26              (      :0      :0    )
+GLN-1     LO-1      GLN   Tue Mar 05 Consecutive  (    1B:5    2A:1    )
+LONG      GLN-1     CGM   Tue Apr 09              (   2Ac:3      :0    )
+LO-2      GLN-1     LO    Tue Apr 30              (      :0      :0    )
+GLN-2     GLN-1     GLN   Tue May 14              (    2B:1  1A2B:6    )
+GLN-1     MAC       GLN   Tue May 21 Consecutive  (      :0    2B:1    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 2 May: 2  
+
+##### GLN-2 J #####
+GLN-2     LONG      GLN   Tue Feb 12              (      :0    2A:1    )
+LO-1      GLN-2     LO    Tue Feb 26              (    1A:5   2BA:2    )
+GLN-2     LO-2      GLN   Tue Mar 12              (      :0      :0    )
+MAC       GLN-2     MAC   Tue Apr 02              (      :0      :0    )
+CGM       GLN-2     CGM   Tue Apr 16              (      :0   2BA:2    )
+MPRC      GLN-2     MPRC  Tue Apr 30              (      :0      :0    )
+GLN-2     GLN-1     GLN   Tue May 14              (    2B:1  1A2B:6    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 3 May: 1   Check
+
+##### LO-1 J #####
+LO-1      MPRC      LO    Tue Feb 05              (      :0      :0    )
+LO-1      GLN-2     LO    Tue Feb 26              (    1A:5   2BA:2    )
+GLN-1     LO-1      GLN   Tue Mar 05 Consecutive  (    1B:5    2A:1    )
+LONG      LO-1      CGM   Tue Mar 19              (      :0      :0    )
+LO-1      LO-2      LO    Tue Apr 16              (      :0  1B2A:6    )
+LO-1      CGM       LO    Tue May 21              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 1 May: 1  
+
+##### LO-2 J #####
+CGM       LO-2      CGM   Tue Jan 29              (   1Ac:7    2B:1 C:1)
+LO-2      MAC       LO    Tue Feb 19              (      :0      :0    )
+GLN-2     LO-2      GLN   Tue Mar 12              (      :0      :0    )
+MPRC      LO-2      MPRC  Tue Apr 09              (      :0      :0    )
+LO-1      LO-2      LO    Tue Apr 16 Consecutive  (      :0  1B2A:6    )
+LO-2      GLN-1     LO    Tue Apr 30              (      :0      :0    )
+LO-2      LONG      LO    Tue May 14              (    2B:1   1Ac:7    )
+Jan: 1 Feb: 1 Mar: 1 Apr: 3 May: 1   Check
+
+##### MAC J #####
+MAC       MPRC      MAC   Tue Feb 12              (    1A:5  1B2A:6    )
+LO-2      MAC       LO    Tue Feb 19 Consecutive  (      :0      :0    )
+MAC       GLN-2     MAC   Tue Apr 02              (      :0      :0    )
+LONG      MAC       CGM   Tue Apr 23              (      :0      :0    )
+MAC       CGM       MAC   Tue May 07              (    2B:1   2Ac:3    )
+GLN-1     MAC       GLN   Tue May 21              (      :0    2B:1    )
+Jan: 0 Feb: 2 Mar: 0 Apr: 2 May: 2   Check
+
+##### MPRC K #####
+MPRC      SAC       MPRC  Tue Jan 29              (   2BA:2    2B:1 C:1)
+MPRC      VTC       MPRC  Tue Feb 12              (      :0      :0    )
+TH        MPRC      TH    Tue Mar 12              (      :0      :0    )
+WH        MPRC      WH    Tue Apr 02              (    2B:1      :0    )
+MPRC      PAC       MPRC  Tue Apr 23              (      :0      :0    )
+CAC       MPRC      CAC   Tue Apr 30 Consecutive  (    2A:1    1B:5    )
+MAC       MPRC      MAC   Tue May 21              (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 1 Apr: 3 May: 1   Check
+
+##### WH K #####
+MAC       WH        MAC   Tue Feb 05              (      :0      :0    )
+TH        WH        TH    Tue Feb 26              (    2A:1      :0    )
+CAC       WH        CAC   Tue Mar 12              (    1B:5  1A2B:6    )
+WH        PAC       WH    Tue Mar 19 Consecutive  (      :0      :0    )
+WH        MPRC      WH    Tue Apr 02              (    2B:1      :0    )
+WH        VTC       WH    Tue Apr 23              (    2A:1    2B:1 C:1)
+WH        SAC       WH    Tue May 07              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 2 Apr: 2 May: 1  
+
+##### VTC K #####
+VTC       TH        VTC   Tue Feb 05              (   1Ac:7      :0    )
+MPRC      VTC       MPRC  Tue Feb 12 Consecutive  (      :0      :0    )
+VTC       MAC       VTC   Tue Feb 26              (    2B:1      :0    )
+SAC       VTC       SAC   Tue Mar 19              (  2BAc:4      :0    )
+VTC       CAC       VTC   Tue Apr 09              (     c:2      :0    )
+WH        VTC       WH    Tue Apr 23              (    2A:1    2B:1 C:1)
+PAC       VTC       PAC   Tue May 21              (      :0      :0    )
+Jan: 0 Feb: 3 Mar: 1 Apr: 2 May: 1   Check
+
+##### CAC K #####
+PAC       CAC       PAC   Tue Feb 05              (     c:2      :0    )
+SAC       CAC       SAC   Tue Mar 05              (      :0      :0    )
+CAC       WH        CAC   Tue Mar 12 Consecutive  (    1B:5  1A2B:6    )
+CAC       MAC       CAC   Tue Mar 19 Consecutive  ( 1B2Bc:8      :0    )
+VTC       CAC       VTC   Tue Apr 09              (     c:2      :0    )
+CAC       MPRC      CAC   Tue Apr 30              (    2A:1    1B:5    )
+CAC       TH        CAC   Tue May 14              (      :0      :0    )
+Jan: 0 Feb: 1 Mar: 3 Apr: 2 May: 1   Check
+
+##### SAC K #####
+MPRC      SAC       MPRC  Tue Jan 29              (   2BA:2    2B:1 C:1)
+SAC       PAC       SAC   Tue Feb 19              (    2A:1   2Bc:3    )
+SAC       CAC       SAC   Tue Mar 05              (      :0      :0    )
+SAC       VTC       SAC   Tue Mar 19              (  2BAc:4      :0    )
+TH        SAC       TH    Tue Apr 02              (      :0      :0    )
+MAC       SAC       MAC   Tue Apr 30              (  1B2B:6    1A:5    )
+WH        SAC       WH    Tue May 07 Consecutive  (      :0      :0    )
+Jan: 1 Feb: 1 Mar: 2 Apr: 2 May: 1  
+
+##### MAC K #####
+MAC       WH        MAC   Tue Feb 05              (      :0      :0    )
+VTC       MAC       VTC   Tue Feb 26              (    2B:1      :0    )
+CAC       MAC       CAC   Tue Mar 19              ( 1B2Bc:8      :0    )
+MAC       PAC       MAC   Tue Apr 16              (    1A:5    1A:5    )
+TH        MAC       TH    Tue Apr 23 Consecutive  (      :0      :0    )
+MAC       SAC       MAC   Tue Apr 30 Consecutive  (  1B2B:6    1A:5    )
+MAC       MPRC      MAC   Tue May 21              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 3 May: 1   Check
+
+##### PAC K #####
+PAC       CAC       PAC   Tue Feb 05              (     c:2      :0    )
+SAC       PAC       SAC   Tue Feb 19              (    2A:1   2Bc:3    )
+WH        PAC       WH    Tue Mar 19              (      :0      :0    )
+MAC       PAC       MAC   Tue Apr 16              (    1A:5    1A:5    )
+MPRC      PAC       MPRC  Tue Apr 23 Consecutive  (      :0      :0    )
+PAC       TH        PAC   Tue May 07              (  2BAc:4  1A2B:6    )
+PAC       VTC       PAC   Tue May 21              (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 2 May: 2  
+
+##### TH K #####
+VTC       TH        VTC   Tue Feb 05              (   1Ac:7      :0    )
+TH        WH        TH    Tue Feb 26              (    2A:1      :0    )
+TH        MPRC      TH    Tue Mar 12              (      :0      :0    )
+TH        SAC       TH    Tue Apr 02              (      :0      :0    )
+TH        MAC       TH    Tue Apr 23              (      :0      :0    )
+PAC       TH        PAC   Tue May 07              (  2BAc:4  1A2B:6    )
+CAC       TH        CAC   Tue May 14 Consecutive  (      :0      :0    )
+Jan: 0 Feb: 2 Mar: 1 Apr: 2 May: 2  
+
